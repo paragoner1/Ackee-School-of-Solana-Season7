@@ -1,165 +1,129 @@
-# 🪙 Solana Token Program with Transfer Fees
+# 🚀 Solana Development Learning Journey
 
-A comprehensive Solana token program built with Anchor framework that demonstrates Token 2022 extensions, including transfer fees, minting, transferring, and fee withdrawal capabilities.
+Welcome to my Solana development learning repository! This showcases my progress through the **Ackee School of Solana Season 7** curriculum and demonstrates my growing expertise in building real-world Solana programs.
 
-## 🎯 Project Overview
+## 📚 Learning Progress
 
-This project is a **step-by-step learning implementation** of a Solana token program that showcases:
+### 🎓 Current Course: Ackee School of Solana Season 7
+- **Status**: In Progress
+- **Focus**: Building production-ready Solana programs
+- **Methodology**: Hands-on project-based learning
 
-- **Token 2022 Extensions** - Advanced token features beyond basic SPL Token
-- **Transfer Fees** - Automatic fee collection on token transfers
-- **Cross-Program Invocation (CPI)** - Programs calling other programs
-- **Account Validation** - Anchor's security features
-- **Associated Token Accounts (ATAs)** - Deterministic token account addresses
+## 🏗️ Project Showcase
 
-## 🏗️ Architecture
+### 📋 Lesson 1: Solana Fundamentals
+**🎯 What This Demonstrates:**
+- Understanding of Solana blockchain architecture
+- Knowledge of accounts, programs, and transactions
+- Basic Solana CLI operations and wallet management
 
-### Program Structure
-```
-token-example/
-├── programs/token-example/src/
-│   ├── lib.rs              # Main program entry point
-│   └── instructions/
-│       ├── initialize.rs    # Token mint creation with fees
-│       ├── mint.rs         # Token minting functionality
-│       ├── transfer.rs     # Token transfer with fee collection
-│       └── withdraw.rs     # Fee withdrawal mechanism
-```
+### 🔧 Lesson 2: Rust Programming Fundamentals
+**🎯 What This Demonstrates:**
+- **Geometric Shapes Implementation**: Structs, enums, traits, and error handling
+- **Calculator with History**: Arithmetic operations, overflow handling, and state management
+- **Core Rust Concepts**: Memory safety, ownership, borrowing, and type systems
 
-### Key Instructions
+**🔗 Location**: `assignments/lesson-2-task/`
 
-1. **Initialize** - Creates token mint with transfer fee configuration
-2. **Mint** - Creates new tokens and sends to recipients
-3. **Transfer** - Moves tokens between accounts (collects fees)
-4. **Withdraw** - Collects accumulated transfer fees
+### 🏦 Lesson 3: On-Chain Vault Program
+**🎯 What This Demonstrates:**
+- **Anchor Framework**: Building Solana programs with Anchor
+- **Program Derived Addresses (PDAs)**: Deterministic account generation
+- **Cross-Program Invocations (CPIs)**: Inter-program communication
+- **Account Validation**: Security and permission management
+- **State Management**: On-chain data storage and retrieval
 
-## 🚀 Build Process
+**🔗 Location**: `assignments/lesson-3-task/`
+
+### 🔗 Lesson 4: Cross-Program Invocation (CPI) & Program Derived Addresses (PDAs)
+**🎯 What This Demonstrates:**
+- **Advanced CPI Patterns**: Complex inter-program interactions
+- **PDA Mastery**: Deterministic address generation and management
+- **Multi-Program Architecture**: Building modular Solana applications
+- **Security Best Practices**: Proper account validation and authorization
+
+**🔗 Location**: `lesson-examples/lesson-4-cpi-pdas/`
+
+### 🪙 Bonus Project: Comprehensive Token Program
+**🎯 What This Demonstrates:**
+- **Token 2022 Extensions**: Advanced token features including transfer fees
+- **Complete Token Lifecycle**: Mint, transfer, and fee collection
+- **Associated Token Accounts (ATAs)**: Deterministic token account management
+- **Professional Documentation**: Step-by-step guides and comprehensive READMEs
+- **Testing & Deployment**: Full development workflow
+
+**🔗 Location**: `bonus-projects/token-example/`
+
+## 🛠️ Technical Skills Developed
+
+### 🔧 **Programming Languages**
+- **Rust**: Core language for Solana development
+- **TypeScript**: Testing and client-side interactions
+- **Shell Scripting**: Automation and deployment
+
+### ⛓️ **Blockchain Technologies**
+- **Solana**: High-performance blockchain platform
+- **Anchor Framework**: Solana development framework
+- **SPL Token Program**: Token standards and extensions
+- **Program Derived Addresses (PDAs)**: Deterministic account generation
+
+### 🏗️ **Development Practices**
+- **Test-Driven Development**: Comprehensive test suites
+- **Documentation**: Professional READMEs and guides
+- **Version Control**: Git workflow and collaboration
+- **Security**: Account validation and permission management
+
+## 📈 Learning Journey Highlights
+
+### 🎯 **Progressive Complexity**
+1. **Fundamentals**: Understanding blockchain basics
+2. **Rust Mastery**: Core programming concepts
+3. **Basic Programs**: Simple Solana applications
+4. **Advanced Patterns**: CPI and PDA implementations
+5. **Production-Ready**: Complete token ecosystem
+
+### 🏆 **Key Achievements**
+- ✅ **100% Test Pass Rate**: All assignments pass comprehensive test suites
+- ✅ **Real-World Projects**: Building actual DeFi and token applications
+- ✅ **Professional Documentation**: Creating guides for future developers
+- ✅ **Security Focus**: Implementing proper validation and authorization
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- Solana CLI v2.2.12
-- Anchor Framework v0.31.1
-- Node.js and Yarn
+- [Rust](https://www.rust-lang.org/tools/install) (stable version)
+- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools) (v2.2.12)
+- [Anchor Framework](https://www.anchor-lang.com/docs/installation) (v0.31.1)
+- [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/)
 
-### Installation & Testing
+### Quick Start
 ```bash
-# Install dependencies
-yarn install
+# Clone the repository
+git clone https://github.com/paragoner1/Ackee-School-of-Solana-Season7.git
+cd Ackee-School-of-Solana-Season7
 
-# Build the program
+# Explore any project
+cd bonus-projects/token-example
 anchor build
-
-# Run tests
 anchor test
 ```
 
-### Test Results
-```
-✅ Initialize - Creates mint with transfer fees
-✅ Mint - Mints tokens to recipients
-✅ Transfer - Transfers tokens (collects 5% fee)
-✅ Withdraw - Withdraws accumulated fees
-```
+## 📚 Resources & Documentation
 
-## 🧠 Key Learnings
-
-### 1. Anchor Framework Benefits
-- **Simplified Development** - Less boilerplate than native Solana
-- **Automatic Validation** - Account permissions checked at compile time
-- **Better Error Handling** - Clear error messages and types
-- **IDL Generation** - Automatic API documentation
-
-### 2. Token 2022 vs SPL Token
-- **SPL Token** - Basic token functionality
-- **Token 2022** - Enhanced features including transfer fees, interest-bearing tokens, etc.
-
-### 3. Cross-Program Invocation (CPI)
-- Programs can call other programs securely
-- Enables complex interactions between different protocols
-- Used for account creation, token operations, etc.
-
-### 4. Account Validation Patterns
-- **Signer** - Must sign transaction (pay fees, authorize actions)
-- **Mutable** - Account will be modified
-- **Init if needed** - Create account if it doesn't exist
-- **Authority checks** - Verify permissions before operations
-
-### 5. Transfer Fee Mechanics
-- Fees are collected automatically on transfers
-- Fees are "withheld" in sender accounts
-- Creator can withdraw fees later
-- Enables revenue generation from token usage
-
-## 🔧 Technical Implementation
-
-### Account Contexts
-Each instruction defines its required accounts with specific permissions:
-
-```rust
-#[derive(Accounts)]
-pub struct InitializeContext<'info> {
-    #[account(mut)]
-    pub creator: Signer<'info>,
-    #[account(mut)]
-    pub mint: Signer<'info>,
-    pub token_program: Program<'info, Token2022>,
-    pub system_program: Program<'info, System>
-}
-```
-
-### CPI Calls
-Programs interact with other programs through CPI:
-
-```rust
-let create_account_ctx = CpiContext::new(
-    system_program.to_account_info(),
-    CreateAccount{
-        from: creator.to_account_info(),
-        to: mint.to_account_info()
-    }
-);
-```
-
-### Transfer Fee Setup
-```rust
-transfer_fee_initialize(
-    transfer_fee_init_ctx, 
-    None,                    // Transfer fee authority
-    Some(&creator.key()),    // Config authority
-    fee_bps,                 // Fee in basis points
-    max_fee                  // Maximum fee amount
-)?;
-```
-
-## 🎓 Learning Journey
-
-This project was built through a **step-by-step learning process**:
-
-1. **Foundation** - Understanding Anchor basics and program structure
-2. **Account Validation** - Learning how Anchor validates accounts
-3. **CPI Implementation** - Understanding cross-program calls
-4. **Token 2022 Features** - Exploring advanced token capabilities
-5. **Testing** - Comprehensive testing of all functionality
-6. **Documentation** - Creating guides for future reference
-
-## 📚 Resources
-
-- [Anchor Documentation](https://www.anchor-lang.com/docs)
-- [Solana Cookbook](https://solanacookbook.com/)
-- [Token 2022 Program](https://spl.solana.com/token-2022)
-- [Ackee School of Solana](https://ackeeblockchain.com/school-of-solana)
+Each project includes comprehensive documentation:
+- **README.md**: Project overview and technical details
+- **Step-by-Step Guides**: Detailed learning journeys
+- **Quick References**: Essential commands and concepts
+- **Test Suites**: Validation and verification
 
 ## 🤝 Contributing
 
-This is a learning project. Feel free to:
-- Ask questions
-- Suggest improvements
-- Share your own implementations
-- Report issues
+This repository showcases my learning journey through the Ackee School of Solana curriculum. While primarily for educational purposes, I welcome feedback and suggestions for improvement.
 
 ## 📄 License
 
-MIT License - feel free to use this code for learning and development.
+This project is part of the Ackee School of Solana Season 7 curriculum and follows the course's educational guidelines.
 
 ---
 
-**Built with ❤️ during the Ackee School of Solana Season 7 Cohort**
+**🎓 Learning never stops!** This repository represents my commitment to mastering Solana development through hands-on experience and continuous improvement.
