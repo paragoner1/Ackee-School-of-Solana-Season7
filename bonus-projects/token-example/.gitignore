@@ -38,3 +38,4 @@ yarn-error.log*
 
 # Test coverage
 coverage/
+solana-extension-issue-report.md
