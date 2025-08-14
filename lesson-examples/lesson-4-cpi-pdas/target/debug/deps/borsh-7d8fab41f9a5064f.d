@@ -1,0 +1,11 @@
+/Users/ryanomeara/projects/learning/lesson-examples/lesson-4-cpi-pdas/target/debug/deps/libborsh-7d8fab41f9a5064f.rmeta: /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/lib.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/mod.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/hint.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema_helpers.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/mod.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/helpers.rs
+
+/Users/ryanomeara/projects/learning/lesson-examples/lesson-4-cpi-pdas/target/debug/deps/borsh-7d8fab41f9a5064f.d: /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/lib.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/mod.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/hint.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema_helpers.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/mod.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/helpers.rs
+
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/lib.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/mod.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/de/hint.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/schema_helpers.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/mod.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/borsh-0.10.4/src/ser/helpers.rs:

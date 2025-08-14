@@ -1,0 +1,120 @@
+Error: Function _ZN4core5slice4sort6stable14driftsort_main17h55173b7c0ccbc2f8E Stack offset of 4104 exceeded max offset of 4096 by 8 bytes, please minimize large stack variables. Estimated function frame size: 4160 bytes. Exceeding the maximum stack offset may cause undefined behavior during execution.
+
+warning: unexpected `cfg` condition value: `custom-heap`
+  --> programs/token-example/src/lib.rs:11:1
+   |
+11 | #[program]
+   | ^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `custom-heap` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: `#[warn(unexpected_cfgs)]` on by default
+   = note: this warning originates in the macro `$crate::custom_heap_default` which comes from the expansion of the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `custom-panic`
+  --> programs/token-example/src/lib.rs:11:1
+   |
+11 | #[program]
+   | ^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `custom-panic` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the macro `$crate::custom_panic_default` which comes from the expansion of the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+   --> programs/token-example/src/instructions/initialize.rs:116:10
+    |
+116 | #[derive(Accounts)]
+    |          ^^^^^^^^
+    |
+    = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+    = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+    = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+    = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/token-example/src/instructions/mint.rs:39:10
+   |
+39 | #[derive(Accounts)]
+   |          ^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/token-example/src/instructions/transfer.rs:42:10
+   |
+42 | #[derive(Accounts)]
+   |          ^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/token-example/src/instructions/withdraw.rs:35:10
+   |
+35 | #[derive(Accounts)]
+   |          ^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/token-example/src/lib.rs:11:1
+   |
+11 | #[program]
+   | ^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: unexpected `cfg` condition value: `anchor-debug`
+  --> programs/token-example/src/lib.rs:11:1
+   |
+11 | #[program]
+   | ^^^^^^^^^^
+   |
+   = note: expected values for `feature` are: `cpi`, `default`, `idl-build`, `no-entrypoint`, `no-idl`, and `no-log-ix-name`
+   = help: consider adding `anchor-debug` as a feature in `Cargo.toml`
+   = note: see <https://doc.rust-lang.org/nightly/rustc/check-cfg/cargo-specifics.html> for more information about checking conditional configuration
+   = note: this warning originates in the derive macro `Accounts` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: use of deprecated method `anchor_lang::prelude::AccountInfo::<'a>::realloc`: Use AccountInfo::resize() instead
+  --> programs/token-example/src/lib.rs:11:1
+   |
+11 | #[program]
+   | ^^^^^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+   = note: this warning originates in the attribute macro `program` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: `token-example` (lib) generated 14 warnings (5 duplicates)
+    Finished `release` profile [optimized] target(s) in 0.11s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.10s
+     Running unittests src/lib.rs (/Users/ryanomeara/projects/learning/bonus-projects/token-example/target/debug/deps/token_example-c897c9f41f3003b1)
+[92mFinished[0m [trident-tests/fuzz_1/instructions/mint.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/instructions/transfer.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/instructions/initialize.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/instructions/withdraw.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/instructions/mod.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/transactions/initialize.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/transactions/mint.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/transactions/transfer.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/transactions/withdraw.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/transactions/mod.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/test_fuzz.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/types.rs] created
+[92mFinished[0m [trident-tests/fuzz_1/fuzz_transactions.rs] created
+[33mSkip[0m [trident-tests/Cargo.toml] already exists
+[33mSkip[0m [.gitignore], already contains [trident-tests/fuzzing/honggfuzz/hfuzz_target]
+[33mSkip[0m [.gitignore], already contains [trident-tests/fuzzing/afl/afl_target]

@@ -1,0 +1,11 @@
+error: unexpected argument '--duration' found
+
+  tip: to pass '--duration' as a value, use '-- --duration'
+
+Usage: Specify the desired fuzz <TARGET>.
+      <TARGET>: Name of the desired fuzz template to execute (for example fuzz_0).
+
+EXAMPLE:
+      trident fuzz run-hfuzz fuzz_0
+
+For more information, try '--help'.

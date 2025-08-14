@@ -1,0 +1,10 @@
+/Users/ryanomeara/projects/learning/lesson-examples/lesson-4-cpi-pdas/target/debug/deps/libserde_bytes-ec5ef16b23dc8126.rmeta: /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/lib.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytearray.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytes.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/de.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/ser.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytebuf.rs
+
+/Users/ryanomeara/projects/learning/lesson-examples/lesson-4-cpi-pdas/target/debug/deps/serde_bytes-ec5ef16b23dc8126.d: /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/lib.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytearray.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytes.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/de.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/ser.rs /Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytebuf.rs
+
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/lib.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytearray.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytes.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/de.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/ser.rs:
+/Users/ryanomeara/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde_bytes-0.11.17/src/bytebuf.rs:

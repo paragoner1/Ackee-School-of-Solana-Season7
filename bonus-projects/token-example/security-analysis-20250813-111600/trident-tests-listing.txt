@@ -1,0 +1,6 @@
+total 8
+drwxr-xr-x@  5 ryanomeara  staff  160 Aug 13 11:16 .
+drwxr-xr-x@ 26 ryanomeara  staff  832 Aug 13 11:16 ..
+-rw-r--r--@  1 ryanomeara  staff  408 Aug 13 11:16 Cargo.toml
+drwxr-xr-x@  7 ryanomeara  staff  224 Aug 13 11:16 fuzz_0
+drwxr-xr-x@  7 ryanomeara  staff  224 Aug 13 11:16 fuzz_1

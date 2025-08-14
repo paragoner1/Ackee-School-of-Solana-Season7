@@ -39,3 +39,5 @@ yarn-error.log*
 # Test coverage
 coverage/
 solana-extension-issue-report.md
+trident-tests/fuzzing/honggfuzz/hfuzz_target
+trident-tests/fuzzing/afl/afl_target
