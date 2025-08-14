@@ -1,4 +1,3 @@
-// states.rs
 use anchor_lang::prelude::*;
 
 pub const TOPIC_LENGTH: usize = 32;

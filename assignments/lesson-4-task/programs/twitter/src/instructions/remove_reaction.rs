@@ -9,7 +9,6 @@
 /// 
 ///-------------------------------------------------------------------------------
 
-// remove_reaction.rs
 use anchor_lang::prelude::*;
 
 use crate::errors::TwitterError;
