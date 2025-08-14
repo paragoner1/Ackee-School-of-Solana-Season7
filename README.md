@@ -46,6 +46,19 @@ Welcome to my Solana development learning repository! This showcases my progress
 **🔗 Location**: `lesson-examples/lesson-4-cpi-pdas/`
 **📝 Note**: Assignment not yet graded, example project available
 
+#### 🐦 **Lesson 4 Assignment: Twitter-like Program**
+**🎯 What This Demonstrates:**
+- **Complete Social Media Platform**: Tweet creation, reactions, and comments
+- **Advanced PDA Patterns**: SHA256 hashing for unique comment identification
+- **Account Management**: Proper initialization, validation, and cleanup
+- **Authorization & Security**: User permission management and data validation
+- **Comprehensive Testing**: 40 test cases covering all functionality and edge cases
+- **Production-Ready Code**: Error handling, boundary testing, and real-world scenarios
+
+**🔗 Location**: `assignments/lesson-4-task/`
+**✅ Status**: **COMPLETED** - All 40 tests passing
+**🏆 Achievement**: Full Twitter-like functionality with likes, dislikes, and comments
+
 ### 🪙 Bonus Lesson: Tokens on Solana
 **🎯 What This Demonstrates:**
 - **Token 2022 Extensions**: Advanced token features including transfer fees
