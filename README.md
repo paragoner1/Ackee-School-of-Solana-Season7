@@ -44,7 +44,6 @@ Welcome to my Solana development learning repository! This showcases my progress
 - **Security Best Practices**: Proper account validation and authorization
 
 **🔗 Location**: `lesson-examples/lesson-4-cpi-pdas/`
-**📝 Note**: Assignment not yet graded, example project available
 
 #### 🐦 **Lesson 4 Assignment: Twitter-like Program**
 **🎯 What This Demonstrates:**
