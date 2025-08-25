@@ -71,7 +71,6 @@ Welcome to my Solana development learning repository! This showcases my progress
 **📝 Note**: No assignment - focused on debugging skills and testing best practices
 **✅ Status**: **COMPLETED** - Comprehensive documentation and quick reference guides created
 
-### 🏠 **Final Assignment: CryptoChores dApp**
 
 ### 🎨 Lesson 6: Frontend Development for Solana dApps
 **🎯 What This Demonstrates:**
@@ -85,6 +84,7 @@ Welcome to my Solana development learning repository! This showcases my progress
 **🔗 Location**: `lesson-examples/lesson-6-frontend/`
 **📝 Note**: No assignment - focused on full-stack dApp development
 **✅ Status**: **COMPLETED** - Complete ticket registry application with frontend and backend
+### 🏠 **Final Assignment: CryptoChores dApp**
 
 **🎯 What This Demonstrates:**
 - **Complete Full-Stack dApp**: Solana program + Next.js frontend + Vercel deployment
