@@ -72,6 +72,20 @@ Welcome to my Solana development learning repository! This showcases my progress
 **✅ Status**: **COMPLETED** - Comprehensive documentation and quick reference guides created
 
 ### 🏠 **Final Assignment: CryptoChores dApp**
+
+### 🎨 Lesson 6: Frontend Development for Solana dApps
+**🎯 What This Demonstrates:**
+- **Full-Stack dApp Architecture**: Complete applications from blockchain to user interface
+- **Modern Web Development**: Next.js, TypeScript, and Tailwind CSS integration
+- **Wallet Integration**: Seamless Solana wallet connectivity with Gill adapter
+- **Real-World Business Logic**: Event ticketing system with complete user flows
+- **Professional UI/UX**: Modern, responsive interfaces with transaction feedback
+- **Development Tools**: Create Solana dApp templates and Codama client generation
+
+**🔗 Location**: `lesson-examples/lesson-6-frontend/`
+**📝 Note**: No assignment - focused on full-stack dApp development
+**✅ Status**: **COMPLETED** - Complete ticket registry application with frontend and backend
+
 **🎯 What This Demonstrates:**
 - **Complete Full-Stack dApp**: Solana program + Next.js frontend + Vercel deployment
 - **Real Blockchain Transactions**: Live SOL transfers on Devnet
@@ -94,6 +108,21 @@ Welcome to my Solana development learning repository! This showcases my progress
 - **Testing & Deployment**: Full development workflow
 
 **🔗 Location**: `bonus-projects/token-example/`
+**✅ Status**: **COMPLETED** - Complete token ecosystem with advanced features
+
+### 🎭 Bonus Lesson 2: Introduction to Pinocchio
+**🎯 What This Demonstrates:**
+- **Low-Level Solana Development**: Building programs without Anchor framework
+- **Manual Instruction Routing**: Custom discriminators and instruction parsing
+- **Raw Account Handling**: Direct AccountInfo manipulation and validation
+- **Manual PDA Operations**: Program Derived Address derivation and signing
+- **Cross-Program Invocations**: Direct CPI calls without Anchor abstractions
+- **Framework Comparison**: Understanding trade-offs between Anchor and Pinocchio
+
+**🔗 Location**: `bonus-projects/pinocchio-example/`
+**📝 Note**: No assignment - focused on understanding low-level Solana development
+**✅ Status**: **COMPLETED** - Vault program with deposit/withdraw functionality
+
 
 ## 🛠️ Technical Skills Developed
 
