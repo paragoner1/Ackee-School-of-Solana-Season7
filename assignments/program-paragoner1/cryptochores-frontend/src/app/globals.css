@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Force all input text to be black */
+input, textarea {
+  color: black !important;
+}
+
+/* Force all input text to be black on focus */
+input:focus, textarea:focus {
+  color: black !important;
+}
+
+/* More specific selectors to override any conflicting styles */
+input[type="text"], input[type="number"], textarea {
+  color: black !important;
+}
+
+/* Target specific classes used in the app */
+.w-full.px-3.py-2.border input,
+.w-full.px-3.py-2.border textarea,
+input.w-full,
+textarea.w-full {
+  color: black !important;
+}
+
+/* Override any Tailwind text color classes */
+.text-gray-800, .text-gray-700, .text-gray-600 {
+  color: black !important;
+}

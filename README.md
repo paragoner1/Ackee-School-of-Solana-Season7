@@ -59,6 +59,20 @@ Welcome to my Solana development learning repository! This showcases my progress
 **✅ Status**: **COMPLETED** - All 40 tests passing
 **🏆 Achievement**: Full Twitter-like functionality with likes, dislikes, and comments
 
+### 🏠 **Final Assignment: CryptoChores dApp**
+**🎯 What This Demonstrates:**
+- **Complete Full-Stack dApp**: Solana program + Next.js frontend + Vercel deployment
+- **Real Blockchain Transactions**: Live SOL transfers on Devnet
+- **PDA Implementation**: Child wallet and chore state management
+- **Professional Frontend**: User-friendly interface with demo mode
+- **Production Deployment**: Live dApp accessible at https://cryptochores-frontend-bn5ng4sfp-paragoners-projects.vercel.app
+- **Comprehensive Testing**: TypeScript tests covering all program instructions
+- **Assignment Requirements**: All criteria met and submitted to GitHub Classroom
+
+**🔗 Location**: `assignments/program-paragoner1/`
+**✅ Status**: **COMPLETED** - Assignment submitted and ready for grading
+**🏆 Achievement**: Complete dApp development from concept to deployment
+
 ### 🪙 Bonus Lesson: Tokens on Solana
 **🎯 What This Demonstrates:**
 - **Token 2022 Extensions**: Advanced token features including transfer fees
@@ -96,6 +110,7 @@ Welcome to my Solana development learning repository! This showcases my progress
 3. **Basic Programs**: Simple Solana applications with Anchor
 4. **Advanced Patterns**: CPI and PDA implementations
 5. **Production-Ready**: Complete token ecosystem with advanced features
+6. **Full-Stack dApp**: Complete application from backend to frontend deployment
 
 ### 🏆 **Key Achievements**
 - ✅ **100% Test Pass Rate**: All assignments pass comprehensive test suites

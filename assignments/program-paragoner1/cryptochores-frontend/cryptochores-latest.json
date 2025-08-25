@@ -1,0 +1,307 @@
+{
+  "version": "0.1.0",
+  "name": "cryptochores",
+  "address": "6bv7YDEGEoXFz94EESehuGNJHJAuoL4QZFzKAAczwNyQ",
+  "instructions": [
+    {
+      "name": "initializeChildWallet",
+      "accounts": [
+        {
+          "name": "childWallet",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "child",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "guardian",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "createChore",
+      "accounts": [
+        {
+          "name": "chore",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "childWallet",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "assigner",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "assignee",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "choreCounter",
+          "isMut": false,
+          "isSigner": true
+        }
+      ],
+      "args": [
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "maxPayment",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "submitChoreCompletion",
+      "accounts": [
+        {
+          "name": "chore",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "assignee",
+          "isMut": false,
+          "isSigner": true
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "rateAndPayChore",
+      "accounts": [
+        {
+          "name": "chore",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "childWallet",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "guardian",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "childActualWallet",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "rating",
+          "type": "u8"
+        }
+      ]
+    },
+    {
+      "name": "withdrawEarnings",
+      "accounts": [
+        {
+          "name": "childWallet",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "child",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "childActualWallet",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "ChildWallet",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "child",
+            "type": "publicKey"
+          },
+          {
+            "name": "guardian",
+            "type": "publicKey"
+          },
+          {
+            "name": "totalEarned",
+            "type": "u64"
+          },
+          {
+            "name": "currentBalance",
+            "type": "u64"
+          },
+          {
+            "name": "choresCompleted",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chore",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "assigner",
+            "type": "publicKey"
+          },
+          {
+            "name": "assignee",
+            "type": "publicKey"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "maxPayment",
+            "type": "u64"
+          },
+          {
+            "name": "status",
+            "type": {
+              "defined": "ChoreStatus"
+            }
+          },
+          {
+            "name": "rating",
+            "type": {
+              "option": "u8"
+            }
+          },
+          {
+            "name": "actualPayment",
+            "type": {
+              "option": "u64"
+            }
+          },
+          {
+            "name": "createdAt",
+            "type": "i64"
+          },
+          {
+            "name": "completedAt",
+            "type": {
+              "option": "i64"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "ChoreStatus",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Pending"
+          },
+          {
+            "name": "Completed"
+          },
+          {
+            "name": "Paid"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "ChoreAlreadyCompleted",
+      "msg": "Chore is already completed"
+    },
+    {
+      "code": 6001,
+      "name": "ChoreNotCompleted",
+      "msg": "Chore is not completed yet"
+    },
+    {
+      "code": 6002,
+      "name": "UnauthorizedAssignee",
+      "msg": "Unauthorized assignee"
+    },
+    {
+      "code": 6003,
+      "name": "UnauthorizedGuardian",
+      "msg": "Unauthorized guardian"
+    },
+    {
+      "code": 6004,
+      "name": "UnauthorizedChild",
+      "msg": "Unauthorized child"
+    },
+    {
+      "code": 6005,
+      "name": "InvalidRating",
+      "msg": "Invalid rating - must be between 1 and 10"
+    },
+    {
+      "code": 6006,
+      "name": "InsufficientBalance",
+      "msg": "Insufficient balance"
+    }
+  ]
+}
