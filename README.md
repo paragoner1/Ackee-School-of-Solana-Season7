@@ -1,222 +1,212 @@
-# Solana Development Portfolio
+# 🚀 Solana Development Learning Journey
 
-## Advanced Blockchain Solutions & Full-Stack dApp Development
+Welcome to my Solana development learning repository! This showcases my progress through the **Ackee School of Solana Season 7** curriculum and demonstrates my growing expertise in building real-world Solana programs.
 
-**Professional Summary**: Strategic career transformation from 16 years in finance to Web3 development, combining deep financial expertise with cutting-edge Solana blockchain technology. Leveraged Elon Musk's "Fork in the Road" deferred resignation offer to pursue full-time blockchain development, bringing unique perspective on DeFi protocols, regulatory considerations, and market-driven smart contract design.
+## 📚 Learning Progress
 
-**Current Focus**: Advanced Solana development with specialization in DeFi protocols, smart contract security, and full-stack dApp architecture. Building production-ready applications that bridge traditional finance with blockchain innovation.
+### 🎓 Current Course: Ackee School of Solana Season 7
+- **Status**: In Progress
+- **Focus**: Building production-ready Solana programs
+- **Methodology**: Hands-on project-based learning
 
-**Career Objective**: Contribute to premier Solana ecosystem companies (Helius, CloudNode, Jito, Solana Labs) by delivering secure, scalable, and user-centric blockchain solutions that drive institutional adoption and ecosystem growth.
+## 🏗️ Project Showcase
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+### 📋 Lesson 1: Introduction to Solana & Blockchain
+**🎯 What This Demonstrates:**
+- Understanding of Solana blockchain fundamentals
+- Knowledge of accounts, programs, and transactions
+- Basic Solana CLI operations and wallet management
+- **Task**: Multiple choice assessment with commit/push workflow
 
----
+### 🔧 Lesson 2: Rust Programming Fundamentals
+**🎯 What This Demonstrates:**
+- **Geometric Shapes Implementation**: Structs, enums, traits, and error handling
+- **Calculator with History**: Arithmetic operations, overflow handling, and state management
+- **Core Rust Concepts**: Memory safety, ownership, borrowing, and type systems
 
-## Professional Journey
+**🔗 Location**: `assignments/lesson-2-task/`
 
-### Strategic Career Transformation
-After 16 years in finance, I recognized the convergence of traditional financial markets and blockchain technology. The opportunity to accept Elon Musk's "Fork in the Road" deferred resignation offer provided the catalyst to pivot into full-time Web3 development, combining my financial acumen with cutting-edge blockchain technology.
+### 🏦 Lesson 3: Solana Programming Model I
+**🎯 What This Demonstrates:**
+- **Anchor Framework**: Building Solana programs with Anchor
+- **Program Derived Addresses (PDAs)**: Deterministic account generation
+- **Cross-Program Invocations (CPIs)**: Inter-program communication
+- **Account Validation**: Security and permission management
+- **State Management**: On-chain data storage and retrieval
 
-This transition brings unique value to the Solana ecosystem:
-- **Financial Markets Expertise**: Deep understanding of market dynamics, risk management, and regulatory frameworks
-- **DeFi Protocol Design**: Ability to create protocols that understand both technology and market requirements
-- **Institutional Adoption**: Experience with traditional finance enables building solutions for institutional blockchain adoption
-- **Risk Assessment**: Traditional finance background provides critical perspective on smart contract security and DeFi risk management
+**🔗 Location**: `assignments/lesson-3-task/`
 
-### Value Proposition
-My combination of traditional finance expertise and modern blockchain development creates a rare skill set that bridges the gap between institutional finance and Web3 innovation. I understand both the technical requirements of blockchain systems and the business needs of financial markets, enabling me to build solutions that drive real adoption and value.
+### 🔗 Lesson 4: Solana Programming Model II
+**🎯 What This Demonstrates:**
+- **Advanced CPI Patterns**: Complex inter-program interactions
+- **PDA Mastery**: Deterministic address generation and management
+- **Multi-Program Architecture**: Building modular Solana applications
+- **Security Best Practices**: Proper account validation and authorization
 
----
+**🔗 Location**: `lesson-examples/lesson-4-cpi-pdas/`
 
-## Technical Competencies
+#### 🐦 **Lesson 4 Assignment: Twitter-like Program**
+**🎯 What This Demonstrates:**
+- **Complete Social Media Platform**: Tweet creation, reactions, and comments
+- **Advanced PDA Patterns**: SHA256 hashing for unique comment identification
+- **Account Management**: Proper initialization, validation, and cleanup
+- **Authorization & Security**: User permission management and data validation
+- **Comprehensive Testing**: 40 test cases covering all functionality and edge cases
+- **Production-Ready Code**: Error handling, boundary testing, and real-world scenarios
 
-### Core Development Skills
-| Skill Area | Proficiency | Focus Areas |
-|------------|-------------|-------------|
-| **Solana Development** | Advanced | Smart contracts, PDAs, CPIs, program architecture |
-| **Rust Programming** | Advanced | Systems programming, performance optimization, security |
-| **Smart Contract Security** | Intermediate-Advanced | Security audits, vulnerability assessment, best practices |
-| **Full-Stack dApp Development** | Intermediate | Next.js, TypeScript, wallet integration, UI/UX |
-| **Blockchain Architecture** | Intermediate | Protocol design, scalability, interoperability |
+**🔗 Location**: `assignments/lesson-4-task/`
+**✅ Status**: **COMPLETED** - All 40 tests passing
+**🏆 Achievement**: Full Twitter-like functionality with likes, dislikes, and comments
 
-### Domain Expertise
-| Expertise Area | Experience Level | Application |
-|----------------|------------------|-------------|
-| **Financial Markets** | 16 years | DeFi protocol design, market-driven features |
-| **Risk Management** | Advanced | Smart contract security, DeFi risk assessment |
-| **Regulatory Compliance** | Intermediate | Protocol compliance, institutional requirements |
-| **Business Strategy** | Advanced | Product-market fit, strategic decision-making |
+### 🐛 Lesson 5: Best Development Practices and Debugging
+**🎯 What This Demonstrates:**
+- **Comprehensive Testing**: Unit tests, integration tests, and on-chain verification
+- **Error Debugging Mastery**: Systematic approach to 6 common Solana errors
+- **Professional Standards**: Industry best practices vs. common shortcuts
+- **Production-Ready Testing**: On-chain data verification and validation
+- **Debugging Workflows**: Systematic error diagnosis and resolution
 
----
+**🔗 Location**: `lesson-examples/lesson-5-debugging/`
+**📝 Note**: No assignment - focused on debugging skills and testing best practices
+**✅ Status**: **COMPLETED** - Comprehensive documentation and quick reference guides created
 
-## Featured Projects
 
-### Crisis Companion - Solana Mobile Emergency Response App
-**Repository**: [crisis-companion](https://github.com/paragoner1/crisis-companion)
+### 🎨 Lesson 6: Frontend Development for Solana dApps
+**🎯 What This Demonstrates:**
+- **Full-Stack dApp Architecture**: Complete applications from blockchain to user interface
+- **Modern Web Development**: Next.js, TypeScript, and Tailwind CSS integration
+- **Wallet Integration**: Seamless Solana wallet connectivity with Gill adapter
+- **Real-World Business Logic**: Event ticketing system with complete user flows
+- **Professional UI/UX**: Modern, responsive interfaces with transaction feedback
+- **Development Tools**: Create Solana dApp templates and Codama client generation
 
-**Project Overview**: Voice-activated emergency response application for Solana Mobile, designed for remote areas with offline functionality. Built for the Solana Mobile hackathon, demonstrating real-world blockchain application in critical infrastructure.
+**🔗 Location**: `lesson-examples/lesson-6-frontend/`
+**📝 Note**: No assignment - focused on full-stack dApp development
+**✅ Status**: **COMPLETED** - Complete ticket registry application with frontend and backend
+### 🏠 **Final Assignment: CryptoChores dApp**
 
-**Key Achievements**:
-- **Real-world Impact**: Emergency response system for underserved communities
-- **Technical Innovation**: Voice activation with blockchain integration
-- **Offline Functionality**: Critical for remote area deployment
-- **Mobile-First Design**: Optimized for Solana Mobile platform
+**🎯 What This Demonstrates:**
+- **Complete Full-Stack dApp**: Solana program + Next.js frontend + Vercel deployment
+- **Real Blockchain Transactions**: Live SOL transfers on Devnet
+- **PDA Implementation**: Child wallet and chore state management
+- **Professional Frontend**: User-friendly interface with demo mode
+- **Production Deployment**: Live dApp accessible at https://cryptochores-frontend-bn5ng4sfp-paragoners-projects.vercel.app
+- **Comprehensive Testing**: TypeScript tests covering all program instructions
+- **Assignment Requirements**: All criteria met and submitted to GitHub Classroom
 
-**Technologies**: Kotlin, Solana Mobile SDK, Voice Recognition, Offline Storage
+**🔗 Location**: `assignments/program-paragoner1/`
+**✅ Status**: **COMPLETED** - Assignment submitted and ready for grading
+**🏆 Achievement**: Complete dApp development from concept to deployment
 
-**Business Value**: Addresses critical infrastructure gaps in emergency response, demonstrating blockchain's potential for social impact applications.
+### 🪙 Bonus Lesson 1: Tokens on Solana
+**🎯 What This Demonstrates:**
+- **Token 2022 Extensions**: Advanced token features including transfer fees
+- **Complete Token Lifecycle**: Mint, transfer, and fee collection
+- **Associated Token Accounts (ATAs)**: Deterministic token account management
+- **Professional Documentation**: Step-by-step guides and comprehensive READMEs
+- **Testing & Deployment**: Full development workflow
 
-### Additional Projects
+**🔗 Location**: `bonus-projects/token-example/`
+**✅ Status**: **COMPLETED** - Complete token ecosystem with advanced features
 
-**Live Bootcamp Project** - [Repository](https://github.com/paragoner1/live-bootcamp-project)
-Advanced Rust development project demonstrating systems programming expertise and performance optimization techniques.
+### 🎭 Bonus Lesson 2: Introduction to Pinocchio
+**🎯 What This Demonstrates:**
+- **Low-Level Solana Development**: Building programs without Anchor framework
+- **Manual Instruction Routing**: Custom discriminators and instruction parsing
+- **Raw Account Handling**: Direct AccountInfo manipulation and validation
+- **Manual PDA Operations**: Program Derived Address derivation and signing
+- **Cross-Program Invocations**: Direct CPI calls without Anchor abstractions
+- **Framework Comparison**: Understanding trade-offs between Anchor and Pinocchio
 
-**Rust Practice** - [Repository](https://github.com/paragoner1/Rust_Practice)
-Comprehensive Rust learning journey with practical exercises and real-world application development.
+**🔗 Location**: `bonus-projects/pinocchio-example/`
+**📝 Note**: No assignment - focused on understanding low-level Solana development
+**✅ Status**: **COMPLETED** - Vault program with deposit/withdraw functionality
 
----
+### 🎮 Bonus Lesson 3: Gaming on Solana
+**🎯 What This Demonstrates:**
+- **Blockchain Gaming Architecture**: Building games with NFT integration and player management
+- **Game Mechanics**: Player accounts, quest systems, and level progression
+- **NFT Systems**: In-game items as programmable assets with rarity and statistics
+- **Cross-Game Interoperability**: Assets usable across multiple games
+- **Real-time Updates**: Event-driven game state synchronization
+- **Player Engagement**: True ownership of digital assets and community-driven economies
 
-## Learning & Development
+**🔗 Location**: `notes/bonus-lesson-3-gaming-*`
+**📝 Note**: No assignment - focused on understanding blockchain gaming concepts
+**✅ Status**: **COMPLETED** - Comprehensive gaming documentation and examples
 
-### Current Educational Focus
-- **Ackee School of Solana Season 7** - Advanced Solana development curriculum
-- **RareSkills.io Rust Security Bootcamp** - Smart contract security specialization
-- **Let's Get Rusty Bootcamp** - Rust programming fundamentals
 
-### Skill Development Approach
-My learning strategy focuses on building production-ready skills through systematic progression:
-1. **Foundation Building** - Rust fundamentals and blockchain concepts
-2. **Specialized Development** - Solana-specific programming and architecture
-3. **Security Focus** - Smart contract security and audit practices
-4. **Real-world Application** - Building practical solutions for actual use cases
+## 🛠️ Technical Skills Developed
 
----
+### 🔧 **Programming Languages**
+- **Rust**: Core language for Solana development
+- **TypeScript**: Testing and client-side interactions
+- **Shell Scripting**: Automation and deployment
 
-## Industry Alignment
+### ⛓️ **Blockchain Technologies**
+- **Solana**: High-performance blockchain platform
+- **Anchor Framework**: Solana development framework
+- **SPL Token Program**: Token standards and extensions
+- **Program Derived Addresses (PDAs)**: Deterministic account generation
 
-### Solana Ecosystem Understanding
-- **Protocol Architecture**: Deep knowledge of Solana's high-performance blockchain design
-- **DeFi Landscape**: Understanding of current protocols, challenges, and opportunities
-- **Institutional Adoption**: Knowledge of barriers and solutions for traditional finance integration
-- **Regulatory Environment**: Awareness of compliance requirements and regulatory trends
+### 🏗️ **Development Practices**
+- **Test-Driven Development**: Comprehensive test suites
+- **Documentation**: Professional READMEs and guides
+- **Version Control**: Git workflow and collaboration
+- **Security**: Account validation and permission management
 
-### Market Awareness
-- **DeFi Growth**: Understanding of DeFi protocol evolution and market dynamics
-- **Institutional Interest**: Knowledge of traditional finance's blockchain adoption journey
-- **Competitive Landscape**: Awareness of other blockchain platforms and their positioning
-- **Future Trends**: Understanding of emerging technologies and market opportunities
+## 📈 Learning Journey Highlights
 
----
+### 🎯 **Progressive Complexity**
+1. **Fundamentals**: Understanding blockchain basics and Solana architecture
+2. **Rust Mastery**: Core programming concepts and memory safety
+3. **Basic Programs**: Simple Solana applications with Anchor
+4. **Advanced Patterns**: CPI and PDA implementations
+5. **Production-Ready**: Complete token ecosystem with advanced features
+6. **Full-Stack dApp**: Complete application from backend to frontend deployment
 
-## Professional Development
+### 🏆 **Key Achievements**
+- ✅ **100% Test Pass Rate**: All assignments pass comprehensive test suites
+- ✅ **Real-World Projects**: Building actual DeFi and token applications
+- ✅ **Professional Documentation**: Creating guides for future developers
+- ✅ **Security Focus**: Implementing proper validation and authorization
 
-### Career Objectives
-- **Contribute to Premier Companies**: Join leading Solana ecosystem companies (Helius, CloudNode, Jito, Solana Labs)
-- **Drive Institutional Adoption**: Build solutions that bridge traditional finance and blockchain
-- **Innovate in DeFi**: Create protocols that combine technical excellence with market understanding
-- **Mentor and Share Knowledge**: Contribute to the broader Solana developer community
+## 🚀 Getting Started
 
-### Professional Values
-- **Security First**: Prioritize smart contract security and risk management
-- **User-Centric Design**: Build applications that provide real value to users
-- **Performance Optimization**: Leverage Solana's speed and efficiency advantages
-- **Continuous Learning**: Stay current with blockchain technology evolution
+### Prerequisites
+- [Rust](https://www.rust-lang.org/tools/install) (stable version)
+- [Solana CLI](https://docs.solana.com/cli/install-solana-cli-tools) (v2.2.12)
+- [Anchor Framework](https://www.anchor-lang.com/docs/installation) (v0.31.1)
+- [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/)
 
----
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/paragoner1/Ackee-School-of-Solana-Season7.git
+cd Ackee-School-of-Solana-Season7
 
-## Technical Documentation
+# Explore any project
+cd bonus-projects/token-example
+anchor build
+anchor test
+```
 
-This repository contains comprehensive documentation from my Solana development learning journey, including detailed technical notes, personal insights, and practical reference guides.
+## 📚 Resources & Documentation
 
-### Documentation Structure
-Each lesson includes three types of documentation:
-- **Technical Notes** - Comprehensive technical documentation and code examples
-- **Learning Summary** - Personal insights, reflections, and key takeaways
-- **Quick Reference** - Practical code snippets and commands for rapid development
+Each project includes comprehensive documentation:
+- **README.md**: Project overview and technical details
+- **Step-by-Step Guides**: Detailed learning journeys
+- **Quick References**: Essential commands and concepts
+- **Test Suites**: Validation and verification
 
-### Core Lessons
+## 🤝 Contributing
 
-**Lesson 6: Frontend Development for Solana dApps**
-- **Focus**: Building full-stack dApps with Next.js frontend and Anchor backend
-- **Key Learnings**: Complete dApp architecture, wallet integration, modern web development
-- **Project**: Ticket Registry dApp with event management and ticket sales
-- **Skills**: Next.js, TypeScript, Tailwind CSS, Gill wallet integration, full-stack development
+This repository showcases my learning journey through the Ackee School of Solana curriculum. While primarily for educational purposes, I welcome feedback and suggestions for improvement.
 
-**Files**:
-- [`lesson-6-notes.md`](./lesson-6-notes.md) - Complete technical documentation
-- [`lesson-6-frontend-learning-summary.md`](./lesson-6-frontend-learning-summary.md) - Personal insights and reflections
-- [`lesson-6-frontend-quick-reference.md`](./lesson-6-frontend-quick-reference.md) - Practical code examples
+## 📄 License
 
-### Bonus Lessons
-
-**Bonus Lesson 1: Tokens on Solana**
-- **Focus**: Understanding and working with SPL tokens on Solana
-- **Key Learnings**: Token creation, minting, burning, and transfer operations
-- **Skills**: SPL Token Program, token economics, token standards
-
-*Note: Token lesson files will be added in the future as the course progresses.*
-
-**Bonus Lesson 2: Introduction to Pinocchio**
-- **Focus**: Low-level Solana development framework for performance-critical applications
-- **Key Learnings**: Manual account handling, instruction processing, bare metal programming
-- **Skills**: Pinocchio framework, low-level Solana development, performance optimization
-
-**Files**:
-- [`bonus-lesson-2-pinocchio-notes.md`](./bonus-lesson-2-pinocchio-notes.md) - Detailed Pinocchio documentation
-- [`bonus-lesson-2-pinocchio-learning-summary.md`](./bonus-lesson-2-pinocchio-learning-summary.md) - Learning insights
-- [`bonus-lesson-2-pinocchio-quick-reference.md`](./bonus-lesson-2-pinocchio-quick-reference.md) - Quick reference
-
-**Bonus Lesson 3: Gaming on Solana**
-- **Focus**: Building blockchain games with NFT integration and player management
-- **Key Learnings**: Game mechanics, player accounts, cross-game interoperability, NFT systems
-- **Skills**: Game development, NFT creation, player state management, real-time updates
-
-**Files**:
-- [`bonus-lesson-3-gaming-notes.md`](./bonus-lesson-3-gaming-notes.md) - Complete gaming documentation
-- [`bonus-lesson-3-gaming-learning-summary.md`](./bonus-lesson-3-gaming-learning-summary.md) - Personal insights
-- [`bonus-lesson-3-gaming-quick-reference.md`](./bonus-lesson-3-gaming-quick-reference.md) - Quick reference
-
----
-
-## Technologies & Tools
-
-### Core Technologies
-- **Solana Blockchain** - High-performance blockchain platform
-- **Rust Programming** - Systems programming language for Solana development
-- **Anchor Framework** - High-level Solana development framework
-- **Pinocchio Framework** - Low-level performance optimization framework
-- **Next.js** - Modern React framework for frontend development
-- **TypeScript** - Type-safe JavaScript for robust applications
-
-### Development Tools
-- **SPL Token Program** - Token creation and management
-- **Metaplex** - NFT standards and tools
-- **Gill Wallet** - Solana wallet integration
-- **Tailwind CSS** - Utility-first styling framework
-
----
-
-## Resources & References
-
-- [Ackee School of Solana](https://github.com/Ackee-Blockchain/school-of-solana)
-- [Solana Documentation](https://docs.solana.com/)
-- [Anchor Framework](https://www.anchor-lang.com/)
-- [Pinocchio Framework](https://github.com/Ackee-Blockchain/pinocchio)
-- [Metaplex](https://docs.metaplex.com/)
-
----
-
-## Professional Contact
-
-**GitHub**: [@paragoner1](https://github.com/paragoner1)  
-**Location**: Available for remote opportunities worldwide  
-**Availability**: Immediately available for full-time positions  
-**Focus Areas**: Solana development, DeFi protocols, smart contract security, institutional blockchain adoption
+This project is part of the Ackee School of Solana Season 7 curriculum and follows the course's educational guidelines.
 
 ---
 
-*This portfolio represents my journey from traditional finance to blockchain development, combining 16 years of financial expertise with cutting-edge Solana technology. The documentation serves as both a learning resource and a demonstration of technical competency and professional growth.*
+**🎓 Learning never stops!** This repository represents my commitment to mastering Solana development through hands-on experience and continuous improvement.
