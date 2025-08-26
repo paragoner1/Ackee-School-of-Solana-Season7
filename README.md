@@ -98,7 +98,7 @@ Welcome to my Solana development learning repository! This showcases my progress
 **✅ Status**: **COMPLETED** - Assignment submitted and ready for grading
 **🏆 Achievement**: Complete dApp development from concept to deployment
 
-### 🪙 Bonus Lesson: Tokens on Solana
+### 🪙 Bonus Lesson 1: Tokens on Solana
 **🎯 What This Demonstrates:**
 - **Token 2022 Extensions**: Advanced token features including transfer fees
 - **Complete Token Lifecycle**: Mint, transfer, and fee collection
@@ -121,6 +121,19 @@ Welcome to my Solana development learning repository! This showcases my progress
 **🔗 Location**: `bonus-projects/pinocchio-example/`
 **📝 Note**: No assignment - focused on understanding low-level Solana development
 **✅ Status**: **COMPLETED** - Vault program with deposit/withdraw functionality
+
+### 🎮 Bonus Lesson 3: Gaming on Solana
+**🎯 What This Demonstrates:**
+- **Blockchain Gaming Architecture**: Building games with NFT integration and player management
+- **Game Mechanics**: Player accounts, quest systems, and level progression
+- **NFT Systems**: In-game items as programmable assets with rarity and statistics
+- **Cross-Game Interoperability**: Assets usable across multiple games
+- **Real-time Updates**: Event-driven game state synchronization
+- **Player Engagement**: True ownership of digital assets and community-driven economies
+
+**🔗 Location**: `notes/bonus-lesson-3-gaming-*`
+**📝 Note**: No assignment - focused on understanding blockchain gaming concepts
+**✅ Status**: **COMPLETED** - Comprehensive gaming documentation and examples
 
 
 ## 🛠️ Technical Skills Developed
