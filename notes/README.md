@@ -72,4 +72,4 @@ This directory contains detailed notes, learning summaries, and quick reference 
 These notes serve as a comprehensive reference for reviewing the course material. Each set includes detailed explanations, key takeaways, and quick lookups to help reinforce learning.
 
 ## Detailed Lesson Journey
-For a comprehensive overview of each lesson, including detailed notes, learning summaries, quick references, and links to related assignments and projects, refer to the [Notes Directory README](notes/README.md).
+Dive into lesson-by-lesson breakdowns, including notes, summaries, references, and linked assignments/projects. For the full details, see the [Notes Directory README](notes/README.md).

@@ -30,7 +30,7 @@
 - [Learning Summary](lesson-4-solana-programming-model-ii-learning-summary.md)
 - [Quick Reference](lesson-4-solana-programming-model-ii-quick-reference.md)
 #### Related Assignments/Projects
-- Twitter-like platform in ../assignments/lesson-4-task/ - Implemented PDAs and CPIs for social features.
+- Twitter-like platform in ../assignments/lesson-4-task/ (40 tests covering PDAs and CPIs for social features).
 
 ### Bonus Lesson 1: Tokens on Solana
 - [Notes](bonus-lesson-1-tokens-on-solana-notes.md)
@@ -58,7 +58,7 @@
 - [Learning Summary](lesson-6-introduction-to-anchor-learning-summary.md)
 - [Quick Reference](lesson-6-introduction-to-anchor-quick-reference.md)
 #### Related Assignments/Projects
-- Anchor project in ../assignments/program-paragoner1/ - Final dApp implementation.
+- Final dApp in ../assignments/program-paragoner1/ (Production-ready with 100% test coverage).
 
 ### Lesson 7: Introduction to Anchor
 - [Notes](lesson-7-introduction-to-anchor-notes.md)
