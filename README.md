@@ -50,7 +50,7 @@ This repository demonstrates my systematic progression through advanced Solana d
 - **Technology Stack**: Solana program + Next.js + TypeScript + Vercel
 - **Key Features**: Real SOL transfers, PDA implementation, professional UI
 - **Status**: Production-ready with comprehensive testing
-
+- **Plans**: Complete the dApp build-out and convert to Solana Mobile dApp for Solana Mobile dApp Store
 **Location**: `assignments/program-paragoner1/`
 
 ### Twitter-like Social Platform
