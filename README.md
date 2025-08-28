@@ -1,5 +1,8 @@
 # Solana Development Learning Journey
 
+[![GitHub Stars](https://img.shields.io/github/stars/paragoner1/Ackee-School-of-Solana-Season7?style=social)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/stargazers)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/paragoner1/Ackee-School-of-Solana-Season7)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/commits/main)
 > **Strategic career transformation from finance to blockchain development**  
 > **Ackee School of Solana Season 7 Graduate**  
 > **Production-ready Solana programs and full-stack dApps**
@@ -70,6 +73,10 @@ This repository demonstrates my systematic progression through advanced Solana d
 
 **Location**: `bonus-projects/token-example/`
 
+
+## Detailed Lesson Journey
+
+Dive into lesson-by-lesson breakdowns, including notes, summaries, references, and linked assignments/projects. For the full details, see the [Notes Directory README](notes/README.md).
 ## Technical Competencies
 
 ### Programming Languages
