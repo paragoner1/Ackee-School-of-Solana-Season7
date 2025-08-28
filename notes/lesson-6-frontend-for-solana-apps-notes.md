@@ -1,4 +1,4 @@
-# Lesson 6: Frontend Development for Solana dApps
+# Lesson 6: Frontend for Solana Apps
 
 ## 📚 Lesson Overview
 **Date**: [Current Date]  
@@ -8,6 +8,11 @@
 ## 🎯 Lesson Resources
 - **GitHub Repository**: https://github.com/Ackee-Blockchain/school-of-solana/tree/master/6.lesson
 - **Example Project**: Ticket Registry dApp with Next.js frontend
+
+### **GitHub Repo Details (6.lesson)**
+- **README.md**: Lesson overview, setup, and full-stack dApp building guide.
+- **Code Examples**: Anchor program (lib.rs, accounts, instructions), Next.js frontend (components, pages).
+- **Tests**: Pre-prepared tests for program validation.
 
 ## 📋 Lesson Content
 
@@ -20,11 +25,33 @@ Lesson 6 focuses on building complete dApps with both frontend and backend compo
 - **Two account types**: `Event` and `Ticket`
 - **Complete business logic** for event management
 
+### **Backend Development**
+- Use `create-solana-dapp` to initialize project with Anchor backend and frontend template.
+- **Program Structure**: Folders for instructions, state; lib.rs for entry points.
+- **Accounts**:
+  - Event: name (String, max 30), description (String, max 300), ticket_price (u64), available_tickets (u64), event_organizer (Pubkey), start_date (i64).
+  - Ticket: event (Pubkey), buyer (Pubkey), price (u64).
+- **Instructions**:
+  - Initialize: Create event with validation (lengths, future date, available tickets >0).
+  - Buy Ticket: Verify event not started/sold out, transfer lamports, update available tickets, create ticket account.
+  - Withdraw: Transfer funds from event to organizer.
+
+### **Deployment**
+- Update Anchor.toml to Devnet.
+- Airdrop SOL (via faucet or CLI).
+- Run `anchor deploy` to deploy program.
+
 #### **Frontend (Next.js Application)**
 - **Modern React application** with TypeScript
 - **Tailwind CSS** for styling
 - **Gill wallet integration** for Solana wallet connectivity
 - **Complete UI components** for interacting with the program
+
+### **Frontend Development (Next.js)**
+- Components: CreateEvent (form for event details), EventList (fetch/display events), BuyTicket button, Withdraw funds.
+- Wallet integration: Use Wallet UI for signer/client.
+- Forms: Handle inputs, convert date to timestamp.
+- Transactions: Build instructions, sign/send, process with latest blockhash.
 
 ### **Project Structure**
 ```
@@ -105,6 +132,11 @@ pub struct Ticket {
 - **Codama**: Client library generator for Anchor programs
 - **Next.js**: React framework for frontend development
 - **Tailwind CSS**: Utility-first CSS framework
+
+### **Codama**
+- Generate client library from IDL.
+- Fix generated code (program ID, seeds).
+- Use for building instructions in frontend.
 
 ---
 

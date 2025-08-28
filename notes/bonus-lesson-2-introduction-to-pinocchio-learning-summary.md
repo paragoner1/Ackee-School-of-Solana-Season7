@@ -1,4 +1,4 @@
-# Bonus Lesson 2: Pinocchio Learning Summary & Personal Insights
+# Bonus Lesson 2: Introduction to Pinocchio Learning Summary & Personal Insights
 
 ## 🎯 What I Learned
 

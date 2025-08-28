@@ -1,127 +1,68 @@
-# 📝 Solana Development Learning Notes
+# Ackee School of Solana Season 7 Notes
 
-This repository contains comprehensive notes, insights, and documentation from my journey through the Ackee School of Solana Season 7 course. Each lesson includes detailed technical notes, personal learning summaries, and quick reference guides.
+This directory contains detailed notes, learning summaries, and quick reference guides for each lesson in the Ackee School of Solana Season 7. The materials are based on video transcripts, GitHub resources, and key concepts from the course. Each lesson has three files: comprehensive notes, a personal learning summary with insights, and a quick reference for fast lookup.
 
-## 🎯 Course Overview
+## Table of Contents
 
-The Ackee School of Solana Season 7 covers the fundamentals of Solana blockchain development, from basic concepts to advanced applications. While there were no formal assignments, the course provided essential knowledge and practical skills for building on Solana.
+- [Lesson 1: Intro to Solana & Blockchain](#lesson-1-intro-to-solana--blockchain)
+- [Lesson 2: Rust Intro](#lesson-2-rust-intro)
+- [Lesson 3: Solana Programming Model I](#lesson-3-solana-programming-model-i)
+- [Lesson 4: Solana Programming Model II](#lesson-4-solana-programming-model-ii)
+- [Bonus Lesson 1: Tokens on Solana](#bonus-lesson-1-tokens-on-solana)
+- [Lesson 5: Best Dev & Debug Practices](#lesson-5-best-dev--debug-practices)
+- [Bonus Lesson 2: Introduction to Pinocchio](#bonus-lesson-2-introduction-to-pinocchio)
+- [Lesson 6: Frontend for Solana Apps](#lesson-6-frontend-for-solana-apps)
+- [Bonus Lesson 3: Gaming on Solana](#bonus-lesson-3-gaming-on-solana)
+- [Lesson 7: Security Best Practices](#lesson-7-security-best-practices)
 
-## 📚 Lesson Structure
+### Lesson 1: Intro to Solana & Blockchain
+- [Notes](lesson-1-intro-to-solana-and-blockchain-notes.md)
+- [Learning Summary](lesson-1-intro-to-solana-and-blockchain-learning-summary.md)
+- [Quick Reference](lesson-1-intro-to-solana-and-blockchain-quick-reference.md)
 
-Each lesson includes three types of documentation:
-- **📖 Notes** - Comprehensive technical documentation and code examples
-- **💡 Learning Summary** - Personal insights, reflections, and key takeaways
-- **⚡ Quick Reference** - Practical code snippets and commands for rapid development
+### Lesson 2: Rust Intro
+- [Notes](lesson-2-rust-intro-notes.md)
+- [Learning Summary](lesson-2-rust-intro-learning-summary.md)
+- [Quick Reference](lesson-2-rust-intro-quick-reference.md)
 
-## 🏗️ Core Lessons
+### Lesson 3: Solana Programming Model I
+- [Notes](lesson-3-solana-programming-model-i-notes.md)
+- [Learning Summary](lesson-3-solana-programming-model-i-learning-summary.md)
+- [Quick Reference](lesson-3-solana-programming-model-i-quick-reference.md)
 
-### **Lesson 6: Frontend Development for Solana dApps**
-- **Focus**: Building full-stack dApps with Next.js frontend and Anchor backend
-- **Key Learnings**: Complete dApp architecture, wallet integration, modern web development
-- **Project**: Ticket Registry dApp with event management and ticket sales
-- **Skills**: Next.js, TypeScript, Tailwind CSS, Gill wallet integration, full-stack development
+### Lesson 4: Solana Programming Model II
+- [Notes](lesson-4-solana-programming-model-ii-notes.md)
+- [Learning Summary](lesson-4-solana-programming-model-ii-learning-summary.md)
+- [Quick Reference](lesson-4-solana-programming-model-ii-quick-reference.md)
 
-**Files:**
-- [`lesson-6-notes.md`](./lesson-6-notes.md) - Complete technical documentation
-- [`lesson-6-frontend-learning-summary.md`](./lesson-6-frontend-learning-summary.md) - Personal insights and reflections
-- [`lesson-6-frontend-quick-reference.md`](./lesson-6-frontend-quick-reference.md) - Practical code examples
+### Bonus Lesson 1: Tokens on Solana
+- [Notes](bonus-lesson-1-tokens-on-solana-notes.md)
+- [Learning Summary](bonus-lesson-1-tokens-on-solana-learning-summary.md)
+- [Quick Reference](bonus-lesson-1-tokens-on-solana-quick-reference.md)
 
-## 🎁 Bonus Lessons
+### Lesson 5: Best Dev & Debug Practices
+- [Notes](lesson-5-best-dev-and-debug-practices-notes.md)
+- [Learning Summary](lesson-5-best-dev-and-debug-practices-learning-summary.md)
+- [Quick Reference](lesson-5-best-dev-and-debug-practices-quick-reference.md)
 
-### **Bonus Lesson 1: Tokens on Solana**
-- **Focus**: Understanding and working with SPL tokens on Solana
-- **Key Learnings**: Token creation, minting, burning, and transfer operations
-- **Skills**: SPL Token Program, token economics, token standards
+### Bonus Lesson 2: Introduction to Pinocchio
+- [Notes](bonus-lesson-2-introduction-to-pinocchio-notes.md)
+- [Learning Summary](bonus-lesson-2-introduction-to-pinocchio-learning-summary.md)
+- [Quick Reference](bonus-lesson-2-introduction-to-pinocchio-quick-reference.md)
 
-*Note: Token lesson files will be added in the future as the course progresses.*
+### Lesson 6: Frontend for Solana Apps
+- [Notes](lesson-6-frontend-for-solana-apps-notes.md)
+- [Learning Summary](lesson-6-frontend-for-solana-apps-learning-summary.md)
+- [Quick Reference](lesson-6-frontend-for-solana-apps-quick-reference.md)
 
-### **Bonus Lesson 2: Introduction to Pinocchio**
-- **Focus**: Low-level Solana development framework for performance-critical applications
-- **Key Learnings**: Manual account handling, instruction processing, bare metal programming
-- **Skills**: Pinocchio framework, low-level Solana development, performance optimization
+### Bonus Lesson 3: Gaming on Solana
+- [Notes](bonus-lesson-3-gaming-on-solana-notes.md)
+- [Learning Summary](bonus-lesson-3-gaming-on-solana-learning-summary.md)
+- [Quick Reference](bonus-lesson-3-gaming-on-solana-quick-reference.md)
 
-**Files:**
-- [`bonus-lesson-2-pinocchio-notes.md`](./bonus-lesson-2-pinocchio-notes.md) - Detailed Pinocchio documentation
-- [`bonus-lesson-2-pinocchio-learning-summary.md`](./bonus-lesson-2-pinocchio-learning-summary.md) - Learning insights
-- [`bonus-lesson-2-pinocchio-quick-reference.md`](./bonus-lesson-2-pinocchio-quick-reference.md) - Quick reference
+### Lesson 7: Security Best Practices
+- [Notes](lesson-7-security-best-practices-notes.md)
+- [Learning Summary](lesson-7-security-best-practices-learning-summary.md)
+- [Quick Reference](lesson-7-security-best-practices-quick-reference.md)
 
-### **Bonus Lesson 3: Gaming on Solana**
-- **Focus**: Building blockchain games with NFT integration and player management
-- **Key Learnings**: Game mechanics, player accounts, cross-game interoperability, NFT systems
-- **Skills**: Game development, NFT creation, player state management, real-time updates
-
-**Files:**
-- [`bonus-lesson-3-gaming-notes.md`](./bonus-lesson-3-gaming-notes.md) - Complete gaming documentation
-- [`bonus-lesson-3-gaming-learning-summary.md`](./bonus-lesson-3-gaming-learning-summary.md) - Personal insights
-- [`bonus-lesson-3-gaming-quick-reference.md`](./bonus-lesson-3-gaming-quick-reference.md) - Quick reference
-
-## 🎓 Learning Journey Summary
-
-### **What I've Gained**
-
-Through this course, I've developed a solid foundation in Solana development that goes far beyond just writing smart contracts. The combination of core lessons and bonus content has given me:
-
-**Technical Skills:**
-- Full-stack dApp development with modern web technologies
-- Advanced Solana program development using both Anchor and Pinocchio
-- Token economics and SPL token program mastery
-- Blockchain gaming architecture and NFT integration
-- Real-time application development with event-driven systems
-
-**Development Mindset:**
-- Understanding of when to use high-level vs low-level frameworks
-- Appreciation for user experience in blockchain applications
-- Knowledge of performance optimization and gas efficiency
-- Awareness of security best practices and error handling
-
-**Industry Knowledge:**
-- Real-world application patterns and use cases
-- Understanding of blockchain gaming and NFT ecosystems
-- Knowledge of cross-game interoperability and asset ownership
-- Insight into the future of decentralized applications
-
-### **Beyond the Code**
-
-While there were no formal assignments, the learning was incredibly valuable. Each lesson built upon the previous ones, creating a comprehensive understanding of Solana development. The bonus lessons especially opened my eyes to advanced concepts and specialized use cases that I wouldn't have encountered otherwise.
-
-The course taught me that Solana development isn't just about writing programs - it's about building complete experiences that users actually want to use. The frontend integration, gaming mechanics, and token systems all work together to create applications that feel natural and engaging.
-
-### **Moving Forward**
-
-This foundation has prepared me to:
-- Build complete, production-ready dApps
-- Contribute to the growing Solana ecosystem
-- Explore specialized areas like gaming and DeFi
-- Understand and work with advanced Solana concepts
-- Make informed decisions about technology choices
-
-## 🛠️ Technologies Covered
-
-- **Solana Blockchain** - Core platform and concepts
-- **Anchor Framework** - High-level program development
-- **Pinocchio Framework** - Low-level performance optimization
-- **Next.js** - Modern React framework for frontends
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first styling
-- **SPL Token Program** - Token creation and management
-- **Metaplex** - NFT standards and tools
-- **Gill Wallet** - Solana wallet integration
-
-## 📖 How to Use These Notes
-
-1. **Start with the Notes** - Read the comprehensive technical documentation for each lesson
-2. **Review Learning Summaries** - Understand the personal insights and key takeaways
-3. **Use Quick References** - Reference code examples and commands during development
-4. **Build Projects** - Apply the concepts to your own Solana development projects
-
-## 🔗 Resources
-
-- [Ackee School of Solana](https://github.com/Ackee-Blockchain/school-of-solana)
-- [Solana Documentation](https://docs.solana.com/)
-- [Anchor Framework](https://www.anchor-lang.com/)
-- [Pinocchio Framework](https://github.com/Ackee-Blockchain/pinocchio)
-- [Metaplex](https://docs.metaplex.com/)
-
----
-
-*This repository represents my personal learning journey through Solana development. The notes are detailed and comprehensive, designed to serve as both a learning resource and a reference guide for future development work.*
+These notes serve as a comprehensive reference for reviewing the course material. Each set includes detailed explanations, key takeaways, and quick lookups to help reinforce learning.

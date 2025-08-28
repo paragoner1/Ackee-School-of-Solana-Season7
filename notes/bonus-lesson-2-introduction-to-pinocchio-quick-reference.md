@@ -1,4 +1,4 @@
-# Bonus Lesson 2: Pinocchio Quick Reference
+# Bonus Lesson 2: Introduction to Pinocchio Quick Reference
 
 ## 🎯 Pinocchio vs Anchor Comparison
 
