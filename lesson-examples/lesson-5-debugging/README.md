@@ -72,6 +72,19 @@ Welcome to my Solana development learning repository! This showcases my progress
 **📝 Note**: No assignment - focused on debugging skills and testing best practices
 **✅ Status**: **COMPLETED** - Comprehensive documentation and quick reference guides created
 
+### 🎨 Lesson 6: Frontend Development for Solana dApps
+**🎯 What This Demonstrates:**
+- **Full-Stack dApp Architecture**: Complete applications from blockchain to user interface
+- **Modern Web Development**: Next.js, TypeScript, and Tailwind CSS integration
+- **Wallet Integration**: Seamless Solana wallet connectivity with Gill adapter
+- **Real-World Business Logic**: Event ticketing system with complete user flows
+- **Professional UI/UX**: Modern, responsive interfaces with transaction feedback
+- **Development Tools**: Create Solana dApp templates and Codama client generation
+
+**🔗 Location**: `lesson-examples/lesson-6-frontend/`
+**📝 Note**: No assignment - focused on full-stack dApp development
+**✅ Status**: **COMPLETED** - Complete ticket registry application with frontend and backend
+
 ### 🏠 **Final Assignment: CryptoChores dApp**
 **🎯 What This Demonstrates:**
 - **Complete Full-Stack dApp**: Solana program + Next.js frontend + Vercel deployment
@@ -86,7 +99,7 @@ Welcome to my Solana development learning repository! This showcases my progress
 **✅ Status**: **COMPLETED** - Assignment submitted and ready for grading
 **🏆 Achievement**: Complete dApp development from concept to deployment
 
-### 🪙 Bonus Lesson: Tokens on Solana
+### 🪙 Bonus Lesson 1: Tokens on Solana
 **🎯 What This Demonstrates:**
 - **Token 2022 Extensions**: Advanced token features including transfer fees
 - **Complete Token Lifecycle**: Mint, transfer, and fee collection
@@ -95,26 +108,45 @@ Welcome to my Solana development learning repository! This showcases my progress
 - **Testing & Deployment**: Full development workflow
 
 **🔗 Location**: `bonus-projects/token-example/`
+**✅ Status**: **COMPLETED** - Complete token ecosystem with advanced features
+
+### 🎭 Bonus Lesson 2: Introduction to Pinocchio
+**🎯 What This Demonstrates:**
+- **Low-Level Solana Development**: Building programs without Anchor framework
+- **Manual Instruction Routing**: Custom discriminators and instruction parsing
+- **Raw Account Handling**: Direct AccountInfo manipulation and validation
+- **Manual PDA Operations**: Program Derived Address derivation and signing
+- **Cross-Program Invocations**: Direct CPI calls without Anchor abstractions
+- **Framework Comparison**: Understanding trade-offs between Anchor and Pinocchio
+
+**🔗 Location**: `bonus-projects/pinocchio-example/`
+**📝 Note**: No assignment - focused on understanding low-level Solana development
+**✅ Status**: **COMPLETED** - Vault program with deposit/withdraw functionality
 
 ## 🛠️ Technical Skills Developed
 
 ### 🔧 **Programming Languages**
 - **Rust**: Core language for Solana development
-- **TypeScript**: Testing and client-side interactions
+- **TypeScript**: Testing, client-side interactions, and frontend development
+- **JavaScript/React**: Frontend development with Next.js
 - **Shell Scripting**: Automation and deployment
 
 ### ⛓️ **Blockchain Technologies**
 - **Solana**: High-performance blockchain platform
 - **Anchor Framework**: Solana development framework
+- **Pinocchio Framework**: Low-level Solana development
 - **SPL Token Program**: Token standards and extensions
 - **Program Derived Addresses (PDAs)**: Deterministic account generation
+- **Wallet Integration**: Solana wallet adapters and connectivity
 
 ### 🏗️ **Development Practices**
 - **Test-Driven Development**: Comprehensive test suites
+- **Full-Stack Development**: Complete dApp architecture from backend to frontend
 - **Documentation**: Professional READMEs and guides
 - **Version Control**: Git workflow and collaboration
 - **Security**: Account validation and permission management
 - **Debugging & Testing**: Systematic error diagnosis and on-chain verification
+- **UI/UX Design**: Modern, responsive user interfaces
 
 ## 📈 Learning Journey Highlights
 
@@ -124,8 +156,9 @@ Welcome to my Solana development learning repository! This showcases my progress
 3. **Basic Programs**: Simple Solana applications with Anchor
 4. **Advanced Patterns**: CPI and PDA implementations
 5. **Debugging & Testing**: Professional development practices and error handling
-6. **Production-Ready**: Complete token ecosystem with advanced features
-7. **Full-Stack dApp**: Complete application from backend to frontend deployment
+6. **Token Ecosystem**: Complete token lifecycle with advanced features
+7. **Low-Level Development**: Pinocchio framework for advanced Solana programming
+8. **Full-Stack dApp**: Complete application from backend to frontend deployment
 
 ### 🏆 **Key Achievements**
 - ✅ **100% Test Pass Rate**: All assignments pass comprehensive test suites
@@ -133,6 +166,8 @@ Welcome to my Solana development learning repository! This showcases my progress
 - ✅ **Professional Documentation**: Creating guides for future developers
 - ✅ **Security Focus**: Implementing proper validation and authorization
 - ✅ **Debugging Mastery**: Systematic approach to Solana error resolution
+- ✅ **Full-Stack Development**: Complete dApps with professional frontends
+- ✅ **Framework Mastery**: Both Anchor and Pinocchio development approaches
 
 ## 🚀 Getting Started
 
@@ -162,11 +197,6 @@ Each project includes comprehensive documentation:
 - **Quick References**: Essential commands and concepts
 - **Test Suites**: Validation and verification
 - **Debugging Guides**: Error resolution and best practices
-
-## �� Contributing
-
-This repository showcases my learning journey through the Ackee School of Solana curriculum. While primarily for educational purposes, I welcome feedback and suggestions for improvement.
-
 
 ## 📄 License
 
