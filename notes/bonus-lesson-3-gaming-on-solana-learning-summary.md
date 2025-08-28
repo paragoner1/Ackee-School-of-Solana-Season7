@@ -1,6 +1,6 @@
 # Bonus Lesson 3: Gaming on Solana Learning Summary & Personal Insights
 
-## 🎯 What I Learned
+## What I Learned
 
 ### **Gaming on Solana Fundamentals**
 - **Blockchain gaming architecture** - How games work on Solana

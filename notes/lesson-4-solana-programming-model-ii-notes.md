@@ -1,9 +1,9 @@
 # Lesson 4: Solana Programming Model II
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: PDAs and CPIs in Solana  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: PDAs and CPIs in Solana  
+Status: Completed
 
 ## 🎯 Lesson Resources
 - **GitHub Repository**: Materials, tasks, slides, and code examples - https://github.com/Ackee-Blockchain/school-of-solana/tree/master/4.lesson

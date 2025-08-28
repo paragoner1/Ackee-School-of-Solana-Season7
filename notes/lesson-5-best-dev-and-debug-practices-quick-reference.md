@@ -1,11 +1,11 @@
 # Lesson 5: Best Dev & Debug Practices Quick Reference
 
-## 🎯 Best Practices
-- **Modularize**: Separate errors/instructions/state; use modules in lib.rs.
-- **Visualize**: Diagram flows (instructions/roles), data structures (PDAs).
-- **Pipelines**: GitHub workflows for auto-tests on PRs.
-- **Validation**: Check all inputs on-chain; don't rely on back-end.
-- **Testing**: High coverage; unhappy paths, unit/integration/fuzzing.
+## Best Practices
+- Modularize: Separate errors/instructions/state.
+- Visualize: Diagram flows (instructions/roles), data structures (PDAs).
+- Pipelines: GitHub workflows for auto-tests on PRs.
+- Validation: Check all inputs on-chain; don't rely on back-end.
+- Testing: High coverage; unhappy paths, unit/integration/fuzzing.
 
 ## 🔍 Debugging Tips
 - **Signature Failed**: Add all signers (e.g., for account init).

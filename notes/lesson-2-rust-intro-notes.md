@@ -1,9 +1,9 @@
 # Lesson 2: Rust Intro
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: Rust basics for Solana development  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: Rust basics for Solana development  
+Status: Completed
 
 ## 🎯 Lesson Resources
 - **Rust Playground**: Online tool for testing Rust code (e.g., Hello World example) - https://play.rust-lang.org/

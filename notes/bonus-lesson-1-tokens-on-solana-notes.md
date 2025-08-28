@@ -1,9 +1,9 @@
 # Bonus Lesson 1: Tokens on Solana
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: Token basics, Token 2022 standard, and building with extensions  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: Token basics, Token 2022 standard, and building with extensions  
+Status: Completed
 
 ## 🎯 Lesson Resources
 - **GitHub Repository**: Materials and completed project - https://github.com/Ackee-Blockchain/school-of-solana/blob/master/Bonus-Tokens

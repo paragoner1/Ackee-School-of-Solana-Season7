@@ -1,13 +1,7 @@
 # Lesson 1: Intro to Solana & Blockchain Quick Reference
 
-## 🎯 Course Structure
-- Lesson 1: Solana Intro
-- Lesson 2: Rust Basics
-- Lessons 3-4: Solana Programming Model (Accounts, CPIs)
-- Lesson 5: Best Practices/Debugging
-- Lesson 6: Security
-- Lesson 7: Frontend Integration
-- Final: Build Solana Project (Smart Contract + Frontend)
+## Course Structure
+- Duration: 7 lessons + bonuses.
 
 ## 🔧 Prerequisites
 - Basic CLI (terminal commands)

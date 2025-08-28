@@ -1,7 +1,7 @@
 # Bonus Lesson 1: Tokens on Solana Learning Summary & Personal Insights
 
-## 🎯 What I Learned
-- Token types: Native SOL vs. tokens (stablecoins, utility, governance, NFTs).
+## What I Learned
+- Token types, Token 2022 extensions.
 - Core concepts: Token programs (SPL/Token 2022), mint accounts (authority/supply/decimals), token accounts (balance/delegate/state), associated accounts (deterministic).
 - Token 2022: Extensions (e.g., transfer fees) for advanced features.
 - Example program: Anchor-based mint with fees, instructions for init/mint/transfer/withdraw.

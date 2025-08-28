@@ -1,9 +1,9 @@
 # Lesson 5: Best Dev & Debug Practices
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: Development best practices, debugging techniques for Solana programs  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: Development best practices, debugging techniques for Solana programs  
+Status: Completed
 
 ## 🎯 Lesson Resources
 - **GitHub Repository**: https://github.com/Ackee-Blockchain/school-of-solana/tree/master/5.lesson (includes examples, code structure)

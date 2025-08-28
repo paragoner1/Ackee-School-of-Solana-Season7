@@ -1,6 +1,7 @@
 # Lesson 3: Solana Programming Model I Quick Reference
 
-## 🎯 Overview
+## Overview
+- Apps interact via RPCs.
 - Apps → Transactions (1+ instructions) → Programs (stateless, use accounts).
 - Execution: Sequential instructions, atomic (all succeed or revert).
 

@@ -1,11 +1,7 @@
 # Lesson 1: Intro to Solana & Blockchain Learning Summary & Personal Insights
 
-## 🎯 What I Learned
-- Course structure: From Solana/Rust basics to full dApps, including programming model, security, frontend.
-- Solana overview: Founded 2017 by Anatoly Yakovenko; proof-of-stake L1 with high TPS, fast blocks/finality, multiple clients.
-- Architecture: Decentralized state machine with clients, RPCs, validators; parallel processing via accounts, Gulfstream for forwarding, Turbine for propagation, PoH for ordering.
-- Accounts: Key-value storage (wallets, data, executables); external to programs for flexibility.
-- Alpenglow: Upcoming upgrades for 150ms finality, removing vote txns/PoH in consensus, introducing Rotor (simplified propagation) and Volter (vote aggregation).
+## What I Learned
+- Solana's history, architecture (PoH, Gulfstream, etc.), innovations (Alpenglow).
 
 ## 💡 Key Insights
 - Solana as a globally synchronized state machine: Focuses on bandwidth/latency for performance (e.g., no mempools, direct leader forwarding).

@@ -1,7 +1,7 @@
 # Lesson 7: Security Best Practices Quick Reference
 
-## 🎯 Security Hierarchy Pyramid
-- **Code Quality**: Clean, maintainable code; address OWASP Top 10 pitfalls proactively.
+## Security Hierarchy Pyramid
+- Bottom: Code Quality
 - **Testing**: Unit/integration tests, blue teaming, regression, social engineering checks.
 - **Fuzzing**: Automated random inputs (blackbox, whitebox, graybox, coverage-guided).
 - **Audits**: Third-party reviews; prepare with structure, docs, uniform scope.

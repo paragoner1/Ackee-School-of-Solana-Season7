@@ -1,7 +1,7 @@
 # Lesson 6: Frontend for Solana Apps Learning Summary & Personal Insights
 
-## 🎯 What I Learned
-- Full-stack dApp: Ticket registry with Anchor backend (instructions/accounts) and Next.js frontend (components/forms/transactions).
+## What I Learned
+- Full-stack dApp: Ticket registry with Anchor backend.
 - Tools: create-solana-dapp for init, Codama for client gen, deployment to Devnet with airdrop.
 - Integration: Wallet signing, instruction building, on-chain validation.
 

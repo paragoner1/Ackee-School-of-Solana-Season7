@@ -1,6 +1,6 @@
 # Bonus Lesson 2: Introduction to Pinocchio Learning Summary & Personal Insights
 
-## 🎯 What I Learned
+## What I Learned
 
 ### **Pinocchio Framework Fundamentals**
 - **Low-level Solana development** - Direct control over program internals

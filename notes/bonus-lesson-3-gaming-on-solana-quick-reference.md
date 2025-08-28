@@ -1,5 +1,8 @@
 # Bonus Lesson 3: Gaming on Solana Quick Reference
 
+## Gaming Concepts
+- NFTs in games.
+
 ## 🎯 Gaming Architecture Overview
 
 ### **Project Structure**

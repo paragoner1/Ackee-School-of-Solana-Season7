@@ -1,7 +1,7 @@
 # Lesson 7: Security Best Practices Learning Summary & Personal Insights
 
-## 🎯 What I Learned
-- Core security concepts, including the security hierarchy pyramid: code quality as the foundation, followed by testing, fuzzing, and audits.
+## What I Learned
+- Security hierarchy, vulnerabilities.
 - Common vulnerability vectors like signer authorization, arbitrary CPI, duplicate mutable accounts, ownership checks, PDA privileges, revival attacks, re-initialization, account reloading, and type cosplay.
 - Sophisticated attack vectors including phishing, private key leakage, sandwich attacks, front running (e.g., of initialization), loss of precision, and overflow/underflow.
 - Mitigation strategies, best practices (e.g., defense in depth, security by design, proactive prevention), and advanced testing like fuzzing types (blackbox, whitebox, graybox, coverage-guided).

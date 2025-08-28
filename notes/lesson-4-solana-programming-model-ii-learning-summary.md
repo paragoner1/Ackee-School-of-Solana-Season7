@@ -1,9 +1,7 @@
 # Lesson 4: Solana Programming Model II Learning Summary & Personal Insights
 
-## 🎯 What I Learned
-- PDAs: Motivation (deterministic without key storage), differences (off-curve, no private key), derivation (seeds/program ID/bump via find/create_program_address).
-- CPIs: Invoking other programs; invoke vs. invoke_signed for PDA signing; max depth 4, privilege extension.
-- Hands-on: Multi-program Anchor workspace, PDA derivation in tests, CPI to workspace programs/system transfer.
+## What I Learned
+- PDA derivation, CPI mechanics.
 
 ## 💡 Key Insights
 - PDAs provide secure program control via determinism and off-curve addresses.

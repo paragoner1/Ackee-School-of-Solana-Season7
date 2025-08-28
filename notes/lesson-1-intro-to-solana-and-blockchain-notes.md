@@ -1,23 +1,19 @@
 # Lesson 1: Intro to Solana & Blockchain
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: Solana overview, history, architecture, innovations  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: Solana overview, history, architecture, innovations  
+Status: Completed
 
-## 🎯 Lesson Resources
-- **YouTube Lessons**: Pre-recorded videos released every Wednesday
-- **GitHub Repository**: Materials and tasks (scan QR code or link provided)
-- **Docker Image**: For environment setup if needed
-- **Solana Handbook**: Summary of key Solana concepts
-- **AI Agent (Young Tolly)**: Discord bot in dev-help channel for questions on Solana/Anchor
+## Lesson Resources
+- **Main Video**: https://www.youtube.com/watch?v=5L0G2KQrSds
+- **GitHub Repository**: https://github.com/Ackee-Blockchain/school-of-solana/tree/master/1.lesson
 
-### **GitHub Repo Details (1.lesson)**
-- **[README.md](https://github.com/Ackee-Blockchain/school-of-solana/blob/master/1.lesson/README.md)**: Course introduction, setup instructions, and overview of Solana fundamentals.
-- **Tasks/Exercises**: Programming tasks to explore Solana basics (e.g., simple transactions, account interactions).
-- **Slides/Presentations**: Visual aids covering architecture, PoH, Gulfstream, etc., complementing the video.
-- **Code Examples**: Sample scripts for CLI usage, Git workflows, and basic Solana interactions.
-- **Additional Materials**: Links to external resources like Solana docs; ties into video by providing hands-on practice for concepts discussed.
+### GitHub Repo Details (1.lesson)
+- **README.md**: Lesson intro and tasks.
+- **Tasks**: Rust setup, simple program compilation.
+- **Slides**: Course overview, Solana history/architecture.
+- **Code Examples**: Basic Solana concepts.
 
 ## 📋 Lesson Content
 

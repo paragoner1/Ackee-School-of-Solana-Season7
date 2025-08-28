@@ -1,9 +1,9 @@
 # Lesson 7: Security Best Practices
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: Security best practices and common vulnerability vectors in Solana programs  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: Security best practices and common vulnerability vectors in Solana programs  
+Status: Completed
 
 ## 🎯 Lesson Resources
 - **Main Video**: https://www.youtube.com/watch?v=YnrT8PWgLNc

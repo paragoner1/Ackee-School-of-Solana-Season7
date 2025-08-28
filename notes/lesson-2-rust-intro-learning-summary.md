@@ -1,7 +1,7 @@
 # Lesson 2: Rust Intro Learning Summary & Personal Insights
 
-## 🎯 What I Learned
-- Rust characteristics: Performance/safety, strong typing, memory-safe without GC, safe concurrency.
+## What I Learned
+- Rust syntax, ownership, error handling.
 - Syntax basics: Variables/mutability, data types (primitives, arrays/tuples, strings), control flow (if/loops/match).
 - Functions: Definition, parameters/returns, explicit/implicit returns.
 - Structures & Enums: Custom types, grouping data, variants with data.

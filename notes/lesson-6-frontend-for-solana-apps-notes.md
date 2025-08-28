@@ -1,9 +1,9 @@
 # Lesson 6: Frontend for Solana Apps
 
-## 📚 Lesson Overview
-**Course**: School of Solana - Season 7 - July thru September, 2025  
-**Focus**: Building full-stack dApps with Next.js frontend and Anchor backend  
-**Status**: ✅ Completed
+## Lesson Overview
+Course: School of Solana - Season 7 - July thru September, 2025  
+Focus: Building full-stack dApps with Next.js frontend and Anchor backend  
+Status: Completed
 
 ## 🎯 Lesson Resources
 - **GitHub Repository**: https://github.com/Ackee-Blockchain/school-of-solana/tree/master/6.lesson
