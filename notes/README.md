@@ -2,6 +2,10 @@
 
 This directory contains detailed notes, learning summaries, and quick reference guides for each lesson in the Ackee School of Solana Season 7. The materials are based on video transcripts, GitHub resources, and key concepts from the course. Each lesson has three files: comprehensive notes, a personal learning summary with insights, and a quick reference for fast lookup.
 
+[![GitHub Stars](https://img.shields.io/github/stars/paragoner1/Ackee-School-of-Solana-Season7?style=social)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/stargazers)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/paragoner1/Ackee-School-of-Solana-Season7)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/commits/main)
+
 ## Table of Contents
 
 - [Lesson 1: Intro to Solana & Blockchain](#lesson-1-intro-to-solana--blockchain)
@@ -68,4 +72,4 @@ This directory contains detailed notes, learning summaries, and quick reference 
 These notes serve as a comprehensive reference for reviewing the course material. Each set includes detailed explanations, key takeaways, and quick lookups to help reinforce learning.
 
 ## Detailed Lesson Journey
-For a complete breakdown of each lesson, including notes, learning summaries, quick references, and links to related assignments/projects, see the [Notes Directory README](notes/README.md).
+For a comprehensive overview of each lesson, including detailed notes, learning summaries, quick references, and links to related assignments and projects, refer to the [Notes Directory README](notes/README.md).

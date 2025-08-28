@@ -9,14 +9,14 @@
 - [Learning Summary](lesson-1-intro-to-solana-and-blockchain-learning-summary.md)
 - [Quick Reference](lesson-1-intro-to-solana-and-blockchain-quick-reference.md)
 #### Related Assignments/Projects
-- Basic setup in ../assignments/lesson-1/ - Environment configuration and intro tasks.
+- Intro tasks in ../assignments/lesson-1/ - Environment setup and basics.
 
 ### Lesson 2: Rust Intro
 - [Notes](lesson-2-rust-intro-notes.md)
 - [Learning Summary](lesson-2-rust-intro-learning-summary.md)
 - [Quick Reference](lesson-2-rust-intro-quick-reference.md)
 #### Related Assignments/Projects
-- Rust exercises in ../assignments/lesson-2/ - Basic programming tasks.
+- Rust exercises in ../assignments/lesson-2/ - Fundamental programming tasks.
 
 ### Lesson 3: Solana Programming Model I
 - [Notes](lesson-3-solana-programming-model-i-notes.md)
