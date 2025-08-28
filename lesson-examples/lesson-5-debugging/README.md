@@ -1,4 +1,4 @@
-# 🚀 Solana Development Learning Journey
+# Solana Development Learning Journey
 
 Welcome to my Solana development learning repository! This showcases my progress through the **Ackee School of Solana Season 7** curriculum and demonstrates my growing expertise in building real-world Solana programs.
 

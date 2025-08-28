@@ -1,4 +1,4 @@
-# 🚀 Solana Bug Hunting Workspace
+# Solana Bug Hunting Workspace
 ## Complete Setup for Automated Security Research
 
 ---
