@@ -3,13 +3,10 @@
 ## Course Structure
 - Duration: 7 lessons + bonuses.
 
-## 🔧 Prerequisites
-- Basic CLI (terminal commands)
-- Git (clone, commit, push)
-- Programming experience (e.g., C/C++, Java, Python)
-- Blockchain basics (blocks, transactions)
+## Prerequisites
+- Git, GitHub, VS Code, Solana CLI, Rust, Anchor.
 
-## 🔍 Key Terms/Concepts
+## Key Terms/Concepts
 - **Proof of History (PoH)**: Synchronization mechanism for transaction ordering (sequential creation, parallel validation).
 - **Gulfstream**: Direct transaction forwarding to leaders (no mempools), with stake-weighted QoS.
 - **Turbine**: Tree-based block propagation via neighborhoods.
@@ -19,7 +16,7 @@
   - **Rotor**: Simplified Turbine (leader → relayers → validators).
   - **Volter**: Off-chain vote aggregation; fast (80% stake) or slow (66% over rounds) finality.
 
-## 🔧 Commands/Tools
+## Commands/Tools
 - **Git Basics**:
   ```bash
   git clone [repo]
@@ -29,13 +26,13 @@
 - **Docker**: Use image for Solana environment setup.
 - **Young Tolly AI**: Tag in Discord dev-help for Solana/Anchor queries.
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 - **Layers**: Clients (apps/wallets) → RPCs (forwarding) → Validators (block production/voting).
 - **Transaction Flow**: App → RPC → Validator/Leader (Gulfstream) → Parallel processing (Sealevel) → Broadcast (Turbine) → Consensus (PoH).
 - **Performance**: 1,200-1,300 true TPS, 400ms blocks, ~12s finality, ~1,200 validators.
 - **Nakamoto Coefficient**: ~22 (validators needed to halt network).
 
-## 🔗 Resources
+## Resources
 - GitHub Repo: Materials/tasks
 - Solana Handbook: Concept summaries
 - Validators.app: Validator visualization

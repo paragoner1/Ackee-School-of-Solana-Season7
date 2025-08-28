@@ -2,7 +2,7 @@
 
 ## Pinocchio vs Anchor Comparison
 
-| **Feature** | **Anchor** | **Pinocchio** |
+| Feature | Anchor | Pinocchio |
 |-------------|------------|---------------|
 | **Entry Point** | `#[program]` macro | `entrypoint!(process_instruction)` |
 | **Account Validation** | `#[derive(Accounts)]` | Manual `TryFrom` implementation |
