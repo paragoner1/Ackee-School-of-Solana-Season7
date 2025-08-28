@@ -56,3 +56,5 @@ Dive into lesson-by-lesson breakdowns, including notes, summaries, references, a
 ---
 
 *Course: School of Solana - Season 7 - July thru September, 2025*
+
+<!-- Updated README structure -->
