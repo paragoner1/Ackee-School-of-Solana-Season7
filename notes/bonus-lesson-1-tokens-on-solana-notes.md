@@ -1,7 +1,7 @@
 # Bonus Lesson 1: Tokens on Solana
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
 **Focus**: Token basics, Token 2022 standard, and building with extensions  
 **Status**: ✅ Completed
 

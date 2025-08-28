@@ -1,8 +1,8 @@
 # Lesson 3: Solana Programming Model I
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
-**Focus**: Accounts, programs, and transactions on Solana  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
+**Focus**: Solana programs, accounts, transactions  
 **Status**: ✅ Completed
 
 ## 🎯 Lesson Resources

@@ -1,8 +1,8 @@
 # Lesson 2: Rust Intro
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
-**Focus**: Basics of Rust programming language for Solana development  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
+**Focus**: Rust basics for Solana development  
 **Status**: ✅ Completed
 
 ## 🎯 Lesson Resources

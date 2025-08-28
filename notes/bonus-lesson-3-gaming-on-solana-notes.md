@@ -1,8 +1,8 @@
 # Bonus Lesson 3: Gaming on Solana
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
-**Focus**: Building games on Solana - Game mechanics, NFTs, and player interactions  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
+**Focus**: Gaming development on Solana  
 **Status**: ✅ Completed
 
 ## 🎯 What is Gaming on Solana?

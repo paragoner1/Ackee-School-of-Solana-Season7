@@ -1,7 +1,7 @@
 # Lesson 5: Best Dev & Debug Practices
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
 **Focus**: Development best practices, debugging techniques for Solana programs  
 **Status**: ✅ Completed
 

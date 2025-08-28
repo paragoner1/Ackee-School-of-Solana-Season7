@@ -1,8 +1,8 @@
 # Bonus Lesson 2: Introduction to Pinocchio
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
-**Focus**: Introduction to Pinocchio - A low-level Solana development framework  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
+**Focus**: Pinocchio framework for Solana development  
 **Status**: ✅ Completed
 
 ## 🎯 What is Pinocchio?

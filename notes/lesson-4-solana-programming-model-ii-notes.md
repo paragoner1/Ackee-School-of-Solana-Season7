@@ -1,8 +1,8 @@
 # Lesson 4: Solana Programming Model II
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
-**Focus**: Program Derived Addresses (PDAs) and Cross-Program Invocations (CPIs)  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
+**Focus**: PDAs and CPIs in Solana  
 **Status**: ✅ Completed
 
 ## 🎯 Lesson Resources

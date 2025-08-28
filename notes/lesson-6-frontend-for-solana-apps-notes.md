@@ -1,7 +1,7 @@
 # Lesson 6: Frontend for Solana Apps
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
 **Focus**: Building full-stack dApps with Next.js frontend and Anchor backend  
 **Status**: ✅ Completed
 

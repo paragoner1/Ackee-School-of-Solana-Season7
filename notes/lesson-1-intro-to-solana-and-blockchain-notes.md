@@ -1,8 +1,8 @@
 # Lesson 1: Intro to Solana & Blockchain
 
 ## 📚 Lesson Overview
-**Date**: [Current Date]  
-**Focus**: Introduction to Solana blockchain and course structure  
+**Course**: School of Solana - Season 7 - July thru September, 2025  
+**Focus**: Solana overview, history, architecture, innovations  
 **Status**: ✅ Completed
 
 ## 🎯 Lesson Resources
