@@ -1,80 +1,79 @@
-# Solana Development Learning Journey
+# Ackee School of Solana Season 7 Notes
 
-[![GitHub Stars](https://img.shields.io/github/stars/paragoner1/Ackee-School-of-Solana-Season7?style=social)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/stargazers)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/paragoner1/Ackee-School-of-Solana-Season7)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/commits/main)
+This directory contains detailed notes, learning summaries, and quick reference guides for each lesson in the Ackee School of Solana Season 7. The materials are based on video transcripts, GitHub resources, and key concepts from the course. Each lesson has three files: comprehensive notes, a personal learning summary with insights, and a quick reference for fast lookup.
 
-[![GitHub Stars](https://img.shields.io/github/stars/paragoner1/Ackee-School-of-Solana-Season7?style=social)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/stargazers)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/paragoner1/Ackee-School-of-Solana-Season7)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/commits/main)
+## Repo Navigation
+- [Assignments](../assignments/) - Weekly tasks and final project implementations
+- [Bonus Projects](../bonus-projects/) - Advanced topic explorations
+- [Lesson Examples](../lesson-examples/) - Code samples and exercises per lesson
+- [Resources](../resources/) - Supplementary materials and tools
 
-> **Strategic career transformation from finance to blockchain development**  
-> **Ackee School of Solana Season 7 Graduate**  
-> **Production-ready Solana programs and full-stack dApps**
+### Lesson 1: Intro to Solana & Blockchain
+- [Notes](lesson-1-intro-to-solana-and-blockchain-notes.md)
+- [Learning Summary](lesson-1-intro-to-solana-and-blockchain-learning-summary.md)
+- [Quick Reference](lesson-1-intro-to-solana-and-blockchain-quick-reference.md)
+#### Related Assignments/Projects
+- Intro tasks in ../assignments/lesson-1/ - Environment setup and basics.
 
-## Executive Summary
+### Lesson 2: Rust Intro
+- [Notes](lesson-2-rust-intro-notes.md)
+- [Learning Summary](lesson-2-rust-intro-learning-summary.md)
+- [Quick Reference](lesson-2-rust-intro-quick-reference.md)
+#### Related Assignments/Projects
+- Rust exercises in ../assignments/lesson-2/ - Fundamental programming tasks.
 
-This repository demonstrates my systematic progression through advanced Solana development, from blockchain fundamentals to production-ready applications. Each project showcases real-world problem-solving, comprehensive testing, and professional documentation standards.
+### Lesson 3: Solana Programming Model I
+- [Notes](lesson-3-solana-programming-model-i-notes.md)
+- [Learning Summary](lesson-3-solana-programming-model-i-learning-summary.md)
+- [Quick Reference](lesson-3-solana-programming-model-i-quick-reference.md)
+#### Related Assignments/Projects
+- Account tasks in ../assignments/lesson-3/ - Simple account interactions.
 
-**Key Metrics:**
-- **100% Test Pass Rate** across all assignments
-- **Complete Full-Stack dApp** deployed to production
-- **Advanced Token Ecosystem** with 2022 extensions
-- **Low-Level Solana Development** using Pinocchio framework
-- **Comprehensive Documentation** for each project
+### Lesson 4: Solana Programming Model II
+- [Notes](lesson-4-solana-programming-model-ii-notes.md)
+- [Learning Summary](lesson-4-solana-programming-model-ii-learning-summary.md)
+- [Quick Reference](lesson-4-solana-programming-model-ii-quick-reference.md)
+#### Related Assignments/Projects
+- Twitter-like platform in ../assignments/lesson-4-task/ (40 tests covering PDAs and CPIs for social features).
 
-## Learning Journey Overview
+### Bonus Lesson 1: Tokens on Solana
+- [Notes](bonus-lesson-1-tokens-on-solana-notes.md)
+- [Learning Summary](bonus-lesson-1-tokens-on-solana-learning-summary.md)
+- [Quick Reference](bonus-lesson-1-tokens-on-solana-quick-reference.md)
+#### Related Assignments/Projects
+- Token project in ../bonus-projects/token-example/ - SPL Token 2022 implementation.
 
-### Core Curriculum (Lessons 1-6)
-**Progressive complexity from fundamentals to production deployment**
+### Lesson 5: Best Dev & Debug Practices
+- [Notes](lesson-5-best-dev-and-debug-practices-notes.md)
+- [Learning Summary](lesson-5-best-dev-and-debug-practices-learning-summary.md)
+- [Quick Reference](lesson-5-best-dev-and-debug-practices-quick-reference.md)
+#### Related Assignments/Projects
+- Debugging exercises in ../lesson-examples/lesson-5-debugging/ - Hands-on bug fixing.
 
-| Lesson | Focus | Key Achievement | Status |
-|--------|-------|-----------------|--------|
-| 1 | Solana Fundamentals | Blockchain architecture understanding | Complete |
-| 2 | Rust Programming | Memory safety and systems programming | Complete |
-| 3 | Anchor Framework | Basic Solana programs and PDAs | Complete |
-| 4 | Advanced Patterns | Twitter-like social platform (40 tests) | Complete |
-| 5 | Debugging & Testing | Professional development practices | Complete |
-| 6 | Full-Stack dApps | Complete ticket registry with deployment | Complete |
+### Bonus Lesson 2: Introduction to Pinocchio
+- [Notes](bonus-lesson-2-introduction-to-pinocchio-notes.md)
+- [Learning Summary](bonus-lesson-2-introduction-to-pinocchio-learning-summary.md)
+- [Quick Reference](bonus-lesson-2-introduction-to-pinocchio-quick-reference.md)
+#### Related Assignments/Projects
+- Low-level dev in ../bonus-projects/pinocchio-example/ - Manual program building.
 
-### Advanced Projects (Bonus Lessons)
-**Specialized topics demonstrating production-ready skills**
+### Lesson 6: Frontend for Solana Apps
+- [Notes](lesson-6-frontend-for-solana-apps-notes.md)
+- [Learning Summary](lesson-6-frontend-for-solana-apps-learning-summary.md)
+- [Quick Reference](lesson-6-frontend-for-solana-apps-quick-reference.md)
+#### Related Assignments/Projects
+- Final dApp in ../assignments/program-paragoner1/ (Production-ready with 100% test coverage).
 
-| Project | Technology | Achievement |
-|---------|------------|-------------|
-| **Token Ecosystem** | SPL Token 2022 | Complete lifecycle with transfer fees |
-| **Pinocchio Development** | Low-level Solana | Manual instruction routing and CPIs |
-| **Gaming Architecture** | NFT Integration | Cross-game interoperability design |
+### Bonus Lesson 3: Gaming on Solana
+- [Notes](bonus-lesson-3-gaming-on-solana-notes.md)
+- [Learning Summary](bonus-lesson-3-gaming-on-solana-learning-summary.md)
+- [Quick Reference](bonus-lesson-3-gaming-on-solana-quick-reference.md)
+#### Related Assignments/Projects
+- Gaming project in ../bonus-projects/gaming-example/ - Interactive blockchain games.
 
-## Featured Projects
-
-### CryptoChores dApp - Final Assignment
-**Complete full-stack application demonstrating production readiness**
-
-- **Live Deployment**: [https://cryptochores-frontend-bn5ng4sfp-paragoners-projects.vercel.app](https://cryptochores-frontend-bn5ng4sfp-paragoners-projects.vercel.app)
-- **Technology Stack**: Solana program + Next.js + TypeScript + Vercel
-- **Key Features**: Real SOL transfers, PDA implementation, professional UI
-- **Status**: Production-ready with comprehensive testing
-
-**Location**: `assignments/program-paragoner1/`
-
-### Twitter-like Social Platform
-**Advanced Solana programming with comprehensive testing**
-
-- **40 Test Cases**: Complete functionality and edge case coverage
-- **Advanced PDAs**: SHA256 hashing for unique comment identification
-- **Security Focus**: Proper account validation and authorization
-- **Production Code**: Error handling and real-world scenarios
-
-**Location**: `assignments/lesson-4-task/`
-
-### Token 2022 Ecosystem
-**Advanced token features demonstrating DeFi expertise**
-
-- **Transfer Fees**: Automated fee collection and distribution
-- **Complete Lifecycle**: Mint, transfer, and fee management
-- **Professional Documentation**: Step-by-step guides and READMEs
-- **Testing Suite**: Full development workflow validation
-
-**Location**: `bonus-projects/token-example/`
-
+### Lesson 7: Security Best Practices
+- [Notes](lesson-7-security-best-practices-notes.md)
+- [Learning Summary](lesson-7-security-best-practices-learning-summary.md)
+- [Quick Reference](lesson-7-security-best-practices-quick-reference.md)
+#### Related Assignments/Projects
+- Security audit in ../assignments/security-audit/ - Comprehensive security testing.
