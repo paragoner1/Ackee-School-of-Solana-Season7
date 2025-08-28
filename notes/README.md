@@ -66,3 +66,6 @@ This directory contains detailed notes, learning summaries, and quick reference 
 - [Quick Reference](lesson-7-security-best-practices-quick-reference.md)
 
 These notes serve as a comprehensive reference for reviewing the course material. Each set includes detailed explanations, key takeaways, and quick lookups to help reinforce learning.
+
+## Detailed Lesson Journey
+For a complete breakdown of each lesson, including notes, learning summaries, quick references, and links to related assignments/projects, see the [Notes Directory README](notes/README.md).
