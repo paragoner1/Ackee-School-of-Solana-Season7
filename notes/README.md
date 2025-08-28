@@ -1,75 +1,58 @@
-# Ackee School of Solana Season 7 Notes
-
-This directory contains detailed notes, learning summaries, and quick reference guides for each lesson in the Ackee School of Solana Season 7. The materials are based on video transcripts, GitHub resources, and key concepts from the course. Each lesson has three files: comprehensive notes, a personal learning summary with insights, and a quick reference for fast lookup.
+# Ackee School of Solana Season 7
 
 [![GitHub Stars](https://img.shields.io/github/stars/paragoner1/Ackee-School-of-Solana-Season7?style=social)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/stargazers)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/paragoner1/Ackee-School-of-Solana-Season7)](https://github.com/paragoner1/Ackee-School-of-Solana-Season7/commits/main)
 
-## Table of Contents
+## Executive Summary
 
-- [Lesson 1: Intro to Solana & Blockchain](#lesson-1-intro-to-solana--blockchain)
-- [Lesson 2: Rust Intro](#lesson-2-rust-intro)
-- [Lesson 3: Solana Programming Model I](#lesson-3-solana-programming-model-i)
-- [Lesson 4: Solana Programming Model II](#lesson-4-solana-programming-model-ii)
-- [Bonus Lesson 1: Tokens on Solana](#bonus-lesson-1-tokens-on-solana)
-- [Lesson 5: Best Dev & Debug Practices](#lesson-5-best-dev--debug-practices)
-- [Bonus Lesson 2: Introduction to Pinocchio](#bonus-lesson-2-introduction-to-pinocchio)
-- [Lesson 6: Frontend for Solana Apps](#lesson-6-frontend-for-solana-apps)
-- [Bonus Lesson 3: Gaming on Solana](#bonus-lesson-3-gaming-on-solana)
-- [Lesson 7: Security Best Practices](#lesson-7-security-best-practices)
+Comprehensive learning journey through Solana blockchain development, covering Rust programming, Solana architecture, smart contract development with Anchor, security best practices, and full-stack dApp creation. This repository contains detailed notes, assignments, projects, and resources from the Ackee School of Solana Season 7 course.
 
-### Lesson 1: Intro to Solana & Blockchain
-- [Notes](lesson-1-intro-to-solana-and-blockchain-notes.md)
-- [Learning Summary](lesson-1-intro-to-solana-and-blockchain-learning-summary.md)
-- [Quick Reference](lesson-1-intro-to-solana-and-blockchain-quick-reference.md)
+## Learning Journey
 
-### Lesson 2: Rust Intro
-- [Notes](lesson-2-rust-intro-notes.md)
-- [Learning Summary](lesson-2-rust-intro-learning-summary.md)
-- [Quick Reference](lesson-2-rust-intro-quick-reference.md)
+**Core Curriculum:**
+- **Blockchain Fundamentals** - Solana architecture, consensus mechanisms, and ecosystem
+- **Rust Programming** - Ownership, borrowing, error handling, and project structure
+- **Solana Development** - Accounts, transactions, PDAs, CPIs, and program security
+- **Frontend Integration** - Next.js, React, wallet integration, and deployment
+- **Advanced Topics** - Token standards, Pinocchio framework, and gaming applications
 
-### Lesson 3: Solana Programming Model I
-- [Notes](lesson-3-solana-programming-model-i-notes.md)
-- [Learning Summary](lesson-3-solana-programming-model-i-learning-summary.md)
-- [Quick Reference](lesson-3-solana-programming-model-i-quick-reference.md)
+## Featured Projects
 
-### Lesson 4: Solana Programming Model II
-- [Notes](lesson-4-solana-programming-model-ii-notes.md)
-- [Learning Summary](lesson-4-solana-programming-model-ii-learning-summary.md)
-- [Quick Reference](lesson-4-solana-programming-model-ii-quick-reference.md)
-
-### Bonus Lesson 1: Tokens on Solana
-- [Notes](bonus-lesson-1-tokens-on-solana-notes.md)
-- [Learning Summary](bonus-lesson-1-tokens-on-solana-learning-summary.md)
-- [Quick Reference](bonus-lesson-1-tokens-on-solana-quick-reference.md)
-
-### Lesson 5: Best Dev & Debug Practices
-- [Notes](lesson-5-best-dev-and-debug-practices-notes.md)
-- [Learning Summary](lesson-5-best-dev-and-debug-practices-learning-summary.md)
-- [Quick Reference](lesson-5-best-dev-and-debug-practices-quick-reference.md)
-
-### Bonus Lesson 2: Introduction to Pinocchio
-- [Notes](bonus-lesson-2-introduction-to-pinocchio-notes.md)
-- [Learning Summary](bonus-lesson-2-introduction-to-pinocchio-learning-summary.md)
-- [Quick Reference](bonus-lesson-2-introduction-to-pinocchio-quick-reference.md)
-
-### Lesson 6: Frontend for Solana Apps
-- [Notes](lesson-6-frontend-for-solana-apps-notes.md)
-- [Learning Summary](lesson-6-frontend-for-solana-apps-learning-summary.md)
-- [Quick Reference](lesson-6-frontend-for-solana-apps-quick-reference.md)
-
-### Bonus Lesson 3: Gaming on Solana
-- [Notes](bonus-lesson-3-gaming-on-solana-notes.md)
-- [Learning Summary](bonus-lesson-3-gaming-on-solana-learning-summary.md)
-- [Quick Reference](bonus-lesson-3-gaming-on-solana-quick-reference.md)
-
-### Lesson 7: Security Best Practices
-- [Notes](lesson-7-security-best-practices-notes.md)
-- [Learning Summary](lesson-7-security-best-practices-learning-summary.md)
-- [Quick Reference](lesson-7-security-best-practices-quick-reference.md)
-
-These notes serve as a comprehensive reference for reviewing the course material. Each set includes detailed explanations, key takeaways, and quick lookups to help reinforce learning.
+| Project | Description | Status |
+|---------|-------------|--------|
+| [CryptoChores dApp](../assignments/program-paragoner1/) | Production-ready task management platform with 100% test coverage | Complete |
+| [Twitter-like Platform](../assignments/lesson-4-task/) | Social features using PDAs and CPIs (40 tests) | Complete |
+| [Token Implementation](../bonus-projects/token-example/) | SPL Token 2022 with modular extensions | Complete |
+| [Debugging Exercises](../lesson-examples/lesson-5-debugging/) | Hands-on bug fixing and error resolution | Complete |
 
 ## Detailed Lesson Journey
+
 Dive into lesson-by-lesson breakdowns, including notes, summaries, references, and linked assignments/projects. For the full details, see the [Notes Directory README](notes/README.md).
+
+## Repository Structure
+
+- **[notes/](notes/)** - Comprehensive lesson materials and quick references
+- **[assignments/](assignments/)** - Weekly tasks and final project implementations  
+- **[bonus-projects/](bonus-projects/)** - Advanced topic explorations
+- **[lesson-examples/](lesson-examples/)** - Code samples and exercises per lesson
+- **[resources/](resources/)** - Supplementary materials and tools
+
+## Technologies & Tools
+
+- **Backend**: Rust, Solana, Anchor Framework, Pinocchio
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
+- **Development**: VS Code, Solana CLI, Anchor CLI
+- **Testing**: Unit tests, integration tests, fuzzing
+- **Deployment**: Devnet, Solana Mobile dApp Store ready
+
+## Getting Started
+
+1. Clone the repository
+2. Review the [notes directory](notes/README.md) for detailed lesson breakdowns
+3. Explore assignments and projects for hands-on learning
+4. Check resources for additional tools and references
+
+---
+
+*Course: School of Solana - Season 7 - July thru September, 2025*

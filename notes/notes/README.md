@@ -1,3 +1,7 @@
+# Ackee School of Solana Season 7 Notes
+
+This directory contains detailed notes, learning summaries, and quick reference guides for each lesson in the Ackee School of Solana Season 7. The materials are based on video transcripts, GitHub resources, and key concepts from the course. Each lesson has three files: comprehensive notes, a personal learning summary with insights, and a quick reference for fast lookup.
+
 ## Repo Navigation
 - [Assignments](../assignments/) - Weekly tasks and final project implementations
 - [Bonus Projects](../bonus-projects/) - Advanced topic explorations
@@ -53,16 +57,23 @@
 #### Related Assignments/Projects
 - Low-level dev in ../bonus-projects/pinocchio-example/ - Manual program building.
 
-### Lesson 6: Introduction to Anchor
-- [Notes](lesson-6-introduction-to-anchor-notes.md)
-- [Learning Summary](lesson-6-introduction-to-anchor-learning-summary.md)
-- [Quick Reference](lesson-6-introduction-to-anchor-quick-reference.md)
+### Lesson 6: Frontend for Solana Apps
+- [Notes](lesson-6-frontend-for-solana-apps-notes.md)
+- [Learning Summary](lesson-6-frontend-for-solana-apps-learning-summary.md)
+- [Quick Reference](lesson-6-frontend-for-solana-apps-quick-reference.md)
 #### Related Assignments/Projects
 - Final dApp in ../assignments/program-paragoner1/ (Production-ready with 100% test coverage).
 
-### Lesson 7: Introduction to Anchor
-- [Notes](lesson-7-introduction-to-anchor-notes.md)
-- [Learning Summary](lesson-7-introduction-to-anchor-learning-summary.md)
-- [Quick Reference](lesson-7-introduction-to-anchor-quick-reference.md)
+### Bonus Lesson 3: Gaming on Solana
+- [Notes](bonus-lesson-3-gaming-on-solana-notes.md)
+- [Learning Summary](bonus-lesson-3-gaming-on-solana-learning-summary.md)
+- [Quick Reference](bonus-lesson-3-gaming-on-solana-quick-reference.md)
 #### Related Assignments/Projects
-- Anchor project in ../assignments/program-paragoner1/ - Final dApp implementation.
+- Gaming project in ../bonus-projects/gaming-example/ - Interactive blockchain games.
+
+### Lesson 7: Security Best Practices
+- [Notes](lesson-7-security-best-practices-notes.md)
+- [Learning Summary](lesson-7-security-best-practices-learning-summary.md)
+- [Quick Reference](lesson-7-security-best-practices-quick-reference.md)
+#### Related Assignments/Projects
+- Security audit in ../assignments/security-audit/ - Comprehensive security testing.
