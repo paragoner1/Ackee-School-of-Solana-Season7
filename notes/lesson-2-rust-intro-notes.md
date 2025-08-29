@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: Rust basics for Solana development  
 Status: Completed
 
-## 🎯 Lesson Resources
+##  Lesson Resources
 - **Rust Playground**: Online tool for testing Rust code (e.g., Hello World example) - https://play.rust-lang.org/
 - **GitHub Repository**: Materials, tasks, slides, and code examples - https://github.com/Ackee-Blockchain/school-of-solana/tree/master/2.lesson
 - **Docker Image**: For Rust/Solana environment setup
@@ -76,13 +76,13 @@ Status: Completed
 - `cargo new hello_world` creates project.
 - Edit `src/main.rs`, run `cargo run` to execute.
 
-## 🔍 Key Concepts
+##  Key Concepts
 - Ownership/Borrowing: Core to memory safety, prevents races.
 - Strong Typing: Infer types, but strict at compile time.
 - Error Handling: Explicit with Result/Option, no exceptions.
 - Modularity: Crates/packages/modules for organized code.
 
-## 💡 Learning Takeaways
+##  Learning Takeaways
 - Rust emphasizes safety/performance, ideal for blockchain.
 - Master ownership to avoid common errors.
 - Use playground for quick experiments.

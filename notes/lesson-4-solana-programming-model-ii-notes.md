@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: PDAs and CPIs in Solana  
 Status: Completed
 
-## 🎯 Lesson Resources
+##  Lesson Resources
 - **GitHub Repository**: Materials, tasks, slides, and code examples - https://github.com/Ackee-Blockchain/school-of-solana/tree/master/4.lesson
 - **Solana Playground**: Examples for find_program_address and create_program_address
 
@@ -34,12 +34,12 @@ Status: Completed
 - **PDA Derivation**: In tests, use Pubkey::find_program_address(seeds, program_id) for address/bump.
 - **CPI to Another Program/System**: From Program A, invoke Program B's instruction; use invoke_signed for PDA-signed system transfer.
 
-## 🔍 Key Concepts
+##  Key Concepts
 - PDAs: Deterministic, off-curve addresses for program control without private keys.
 - CPI: Extend execution across programs; signed for authority.
 - Signing with PDAs: Runtime validates via program ID in seeds.
 
-## 💡 Learning Takeaways
+##  Learning Takeaways
 - PDAs enable secure, deterministic state without key management.
 - CPIs allow composable programs; careful with privilege extension.
 - Anchor simplifies PDAs/CPIs for efficient development.

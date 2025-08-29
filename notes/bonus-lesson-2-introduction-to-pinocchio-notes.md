@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: Pinocchio framework for Solana development  
 Status: Completed
 
-## 🎯 What is Pinocchio?
+##  What is Pinocchio?
 
 ### **Pinocchio vs Anchor**
 Pinocchio is a **low-level Solana development framework** that provides more direct control over Solana programs compared to Anchor.
@@ -50,7 +50,7 @@ pinocchio-system = "0.3.0"  # System program integration
 
 ---
 
-## 🔍 Code Analysis
+##  Code Analysis
 
 ### **1. Main Program Entry Point (`lib.rs`)**
 
@@ -314,7 +314,7 @@ let signers = [Signer::from(&seeds)];
 
 ---
 
-## 🎯 When to Use Pinocchio
+##  When to Use Pinocchio
 
 ### **Use Pinocchio When:**
 - **Performance is critical** - Need maximum speed
@@ -332,7 +332,7 @@ let signers = [Signer::from(&seeds)];
 
 ---
 
-## 🔧 Building and Testing
+##  Building and Testing
 
 ### **Build Commands**
 ```bash
@@ -349,7 +349,7 @@ cargo test       # Run tests
 
 ---
 
-## 📝 Learning Takeaways
+## Learning Takeaways
 
 ### **Key Insights**
 1. **Pinocchio provides low-level control** - Full access to Solana internals

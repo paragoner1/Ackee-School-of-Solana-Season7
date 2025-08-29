@@ -3,5 +3,5 @@
 ## Rust Characteristics
 - Safe, concurrent, practical.
 
-## 🔧 Syntax Basics
+## Syntax Basics
 - **Variables/Mutability**: `let x = 5;` (immutable), `

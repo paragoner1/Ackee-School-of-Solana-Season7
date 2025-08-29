@@ -7,7 +7,7 @@
 - Validation: Check all inputs on-chain; don't rely on back-end.
 - Testing: High coverage; unhappy paths, unit/integration/fuzzing.
 
-## 🔍 Debugging Tips
+## Debugging Tips
 - **Signature Failed**: Add all signers (e.g., for account init).
 - **Simulation Failed**: Skip preflight; check logs for lamports/rent.
 - **Custom Error 0x0**: Reference Solana docs (e.g., account in use).
@@ -16,7 +16,7 @@
 - **Overflow**: Use checked ops, require macros.
 - General: Log balances/keys, fetch on-chain data, assert errors.
 
-## 🔧 Commands
+## Commands
 - **Anchor Test**: `anchor test` (integration).
 - **Cargo Test**: `cargo test` (unit/integration).
 - **Build**: `anchor build` (update IDL).

@@ -60,13 +60,13 @@ Status: Completed
 - Rotor: Simplified Turbine (leader → relayers → validators)
 - Volter: Aggregates votes off-chain; fast finality at 80% stake, slow at 66% over two rounds; includes BLS certificate in next block
 
-## 🔍 Key Concepts
+## Key Concepts
 - Solana as a high-performance blockchain: Optimizes bandwidth/latency via innovations like PoH, Gulfstream, Turbine, Sealevel (parallel execution)
 - Accounts: External storage (not internal to programs); mutable vs. read-only for parallelism
 - Leader Schedule: Precomputed for epochs (~2 days), enables direct forwarding
 - Stake-Weighted QoS: Prioritizes trusted validators to combat congestion/spam
 
-## 💡 Learning Takeaways
+## Learning Takeaways
 - Solana prioritizes speed/scalability while maintaining decentralization
 - Understanding architecture (validators, RPCs, parallel processing) is key to development
 - Innovations like PoH solve ordering without traditional consensus overhead

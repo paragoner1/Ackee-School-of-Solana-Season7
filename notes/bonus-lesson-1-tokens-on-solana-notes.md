@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: Token basics, Token 2022 standard, and building with extensions  
 Status: Completed
 
-## 🎯 Lesson Resources
+##  Lesson Resources
 - **GitHub Repository**: Materials and completed project - https://github.com/Ackee-Blockchain/school-of-solana/blob/master/Bonus-Tokens
 - **Docker Image**: For Anchor/Solana setup
 
@@ -54,12 +54,12 @@ Status: Completed
 - Use Docker/Anchor: `anchor init project`; Add instructions for init/mint/transfer/withdraw using Token 2022 CPIs.
 - Tests: Verify mint creation, balances, fees, withdrawals.
 
-## 🔍 Key Concepts
+##  Key Concepts
 - Tokens vs. SOL: Tokens via programs; extendable with 2022.
 - Mint/Token Separation: Mint defines token; accounts hold balances.
 - Deterministic Addresses: Associated accounts simplify transfers.
 
-## 💡 Learning Takeaways
+##  Learning Takeaways
 - Token 2022 enables advanced features like fees for customizable tokens.
 - Understanding components (program/mint/account) is key to building token systems.
 - Anchor simplifies extensions/CPIs for real-world use.

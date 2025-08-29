@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: Security best practices and common vulnerability vectors in Solana programs  
 Status: Completed
 
-## 🎯 Lesson Resources
+##  Lesson Resources
 - **Main Video**: https://www.youtube.com/watch?v=YnrT8PWgLNc
 - **Supplemental Video**: https://www.youtube.com/watch?v=ZvON2fr9MX0
 - **GitHub Repository**: https://github.com/Ackee-Blockchain/school-of-solana/tree/master/7.lesson
@@ -198,7 +198,7 @@ The video presents security as a layered pyramid, building from foundational pra
 5. **Account Ownership** - Verify program ownership
 6. **Data Validation** - Check input sizes and formats
 
-## 🔍 Key Concepts
+##  Key Concepts
 
 ### **Common Vulnerabilities**
 - Missing signer checks leading to unauthorized actions
@@ -212,7 +212,7 @@ The video presents security as a layered pyramid, building from foundational pra
 - Conduct security audits
 - Follow secure development lifecycle
 
-## 💡 Learning Takeaways
+##  Learning Takeaways
 - Security is paramount in blockchain development
 - Prevention is better than cure
 - Understand attack vectors to build robust programs

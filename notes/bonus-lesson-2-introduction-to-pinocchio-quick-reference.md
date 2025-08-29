@@ -11,7 +11,7 @@
 | **Error Handling** | `require!()` macro | Direct `ProgramError` |
 | **Build Command** | `anchor build` | `cargo build-bpf` |
 
-## 🔧 Essential Pinocchio Patterns
+##  Essential Pinocchio Patterns
 
 ### **Program Entry Point**
 ```rust

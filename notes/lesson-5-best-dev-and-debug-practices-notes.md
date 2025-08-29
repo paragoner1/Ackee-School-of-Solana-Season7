@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: Development best practices, debugging techniques for Solana programs  
 Status: Completed
 
-## 🎯 Lesson Resources
+##  Lesson Resources
 - **GitHub Repository**: https://github.com/Ackee-Blockchain/school-of-solana/tree/master/5.lesson (includes examples, code structure)
 - **Bonus Lecture**: SPL Tokens (voluntary, no assignment)
 
@@ -49,13 +49,13 @@ Status: Completed
 - **Overflow/Panic**: Use checked arithmetic, require macros for errors.
 - Tips: Log balances/keys, fetch on-chain data, assert errors in tests.
 
-## 🔍 Key Concepts
+##  Key Concepts
 - Modular code improves maintainability.
 - Visualization prevents logic errors.
 - On-chain validation is essential.
 - Comprehensive testing covers edge cases.
 
-## 💡 Learning Takeaways
+##  Learning Takeaways
 - Debugging requires logs, tricks like skipping preflight, and source code dives.
 - Testing unhappy paths catches exploits.
 - Anchor/Rust tools streamline development.

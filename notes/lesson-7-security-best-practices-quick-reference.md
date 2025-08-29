@@ -56,13 +56,13 @@ account.reload()?;
 ```
 // Additional: Use checked arithmetic (e.g., checked_add) for overflows; program metadata for front running.
 
-## 🔧 Security Tools & Commands
+##  Security Tools & Commands
 - **Testing**: `anchor test` for integration; custom scripts for blue teaming.
 - **Fuzzing**: `cargo fuzz` (coverage-guided); Trident for Solana-specific.
 - **Audits**: cargo-audit for dependencies; clippy for static analysis.
 - **Other**: GitHub pipelines for automated fuzzing; OWASP checklists.
 
-## 💡 Best Practices
+##  Best Practices
 - **Code Quality**: Follow OWASP Top 10; security by design, proactive prevention from day one.
 - **Testing**: Think like an attacker; include regression, blue teaming (monitor/detect/respond/communicate), social engineering tests.
 - **Fuzzing**: Use types like mutation/generation-based for comprehensive coverage.

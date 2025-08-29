@@ -3,7 +3,7 @@
 ## Gaming Concepts
 - NFTs in games.
 
-## 🎯 Gaming Architecture Overview
+## Gaming Architecture Overview
 
 ### **Project Structure**
 ```
@@ -20,7 +20,7 @@ gaming-dapp/
     └── metadata/          # NFT metadata
 ```
 
-## 🔧 Development Commands
+## Development Commands
 
 ### **Backend (Anchor)**
 ```bash
@@ -52,7 +52,7 @@ pnpm dev
 pnpm build
 ```
 
-## 🎮 Player Account Management
+## Player Account Management
 
 ### **Player Account Structure**
 ```rust
@@ -99,7 +99,7 @@ pub fn initialize_player(ctx: Context<InitializePlayer>) -> Result<()> {
 }
 ```
 
-## 🎨 Game NFT Creation
+## Game NFT Creation
 
 ### **Game NFT Structure**
 ```rust
@@ -160,7 +160,7 @@ pub fn mint_game_item(
 }
 ```
 
-## 🎯 Game Mechanics
+## Game Mechanics
 
 ### **Start Game**
 ```rust
@@ -261,7 +261,7 @@ pub fn equip_item(ctx: Context<EquipItem>) -> Result<()> {
 }
 ```
 
-## 🎲 Random Number Generation
+## Random Number Generation
 
 ### **Generate Random Item**
 ```rust
@@ -328,7 +328,7 @@ pub struct ItemEquipped {
 }
 ```
 
-## 🎨 Frontend Integration
+## Frontend Integration
 
 ### **Game State Management**
 ```typescript
@@ -451,7 +451,7 @@ const equipItem = async (itemMint: PublicKey) => {
 };
 ```
 
-## 🎯 Real-time Updates
+## Real-time Updates
 
 ### **Event Listeners**
 ```typescript
@@ -502,7 +502,7 @@ useEffect(() => {
 }, [publicKey]);
 ```
 
-## 🎮 Game UI Components
+## Game UI Components
 
 ### **Player Stats Component**
 ```typescript
@@ -630,7 +630,7 @@ const getErrorMessage = (errorCode: string) => {
 };
 ```
 
-## 💡 Best Practices
+## Best Practices
 
 ### **Game Development**
 - **Start simple** - Begin with basic mechanics

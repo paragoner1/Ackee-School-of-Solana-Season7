@@ -6,28 +6,28 @@
 - Token 2022: Extensions (e.g., transfer fees) for advanced features.
 - Example program: Anchor-based mint with fees, instructions for init/mint/transfer/withdraw.
 
-## 💡 Key Insights
+##  Key Insights
 - Tokens extend SOL via programs; 2022 adds modularity for custom behaviors.
 - Associated accounts simplify transfers without knowing recipient details.
 - Mint/token separation enables flexible management (e.g., authorities, freezing).
 - Extensions can be incompatible; choose based on needs.
 
-## 🔧 Technical Skills Developed
+##  Technical Skills Developed
 - Creating mints with Token 2022 extensions in Anchor.
 - Implementing instructions (init, mint, transfer, withdraw) with CPIs.
 - Using constraints for account creation/validation.
 - Testing token flows (balances, fees).
 
-## 🚀 How This Helps My Development
+##  How This Helps My Development
 - Enables building token-based dApps (e.g., with fees).
 - Improves integration of SPL tokens in projects.
 - Prepares for advanced standards like 2022.
 
-## 📚 Resources to Remember
+##  Resources to Remember
 - GitHub Repo: https://github.com/Ackee-Blockchain/school-of-solana/blob/master/Bonus-Tokens (code, examples)
 - Token 2022 Docs: [Solana Docs Link]
 
-## 🎯 Next Steps
+##  Next Steps
 ### **Immediate**
 - Experiment with other extensions (e.g., non-transferable).
 - Build token airdrop script.
@@ -44,14 +44,14 @@
 ## 💭 Personal Reflection
 Tokens' modularity in 2022 opens creative possibilities; hands-on clarified relationships—excited for custom assets.
 
-## 🔍 Key Takeaways
+##  Key Takeaways
 1. SPL vs. 2022: Basic vs. extensible.
 2. Accounts: Mint defines, token holds.
 3. Associated: Deterministic for ease.
 4. Extensions: Modular for features like fees.
 5. Anchor: Simplifies token CPIs.
 
-## 🎯 Application to My Projects
+##  Application to My Projects
 ### **Current Projects**
 - Add token minting with fees.
 - Use associated accounts for transfers.

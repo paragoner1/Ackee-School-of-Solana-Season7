@@ -12,7 +12,7 @@
 - **Max Depth**: 4 nested CPIs.
 - **Privileges**: Signers extend; PDAs sign via owning program's ID.
 
-## 🔧 Commands
+##  Commands
 - **Anchor Workspace**: `anchor init program_a`; `anchor new program_b` (add to workspace).
 - **Build/Test**: `anchor build`; `anchor test`.
 - **Local Validator**: `solana-test-validator`.

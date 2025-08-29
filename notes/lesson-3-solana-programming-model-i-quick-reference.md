@@ -21,7 +21,7 @@
 - Instructions: Program ID, accounts, data.
 - Atomicity: If any fails, revert all changes.
 
-## 🔧 Hands-on Commands
+##  Hands-on Commands
 - **Anchor**:
   ```bash
   anchor init hello_solana

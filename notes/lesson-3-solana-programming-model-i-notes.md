@@ -5,7 +5,7 @@ Course: School of Solana - Season 7 - July thru September, 2025
 Focus: Solana programs, accounts, transactions  
 Status: Completed
 
-## 🎯 Lesson Resources
+##  Lesson Resources
 - **GitHub Repository**: Materials, tasks, slides, and code examples - https://github.com/Ackee-Blockchain/school-of-solana/tree/master/3.lesson
 - **Docker Image**: For environment setup
 
@@ -44,13 +44,13 @@ Status: Completed
 - **TypeScript Transfer**: Create connection, generate keys, build transfer instruction, add to transaction, sign/send.
 - **Anchor Initialization**: Define program with context (accounts), constraints (init, payer, space), store data in account; test with fetch to verify.
 
-## 🔍 Key Concepts
+##  Key Concepts
 - Stateless Programs: Rely on external accounts for persistence.
 - Atomic Transactions: Ensure all-or-nothing execution.
 - Account Ownership: Controls modifications; critical for security.
 - Rent Mechanism: Pays for on-chain storage, refundable.
 
-## 💡 Learning Takeaways
+##  Learning Takeaways
 - Solana's model separates code (programs) from state (accounts) for efficiency.
 - Understanding transactions/instructions is key to building interactions.
 - Practice is essential—use playground/Anchor for hands-on mastery.
