@@ -101,7 +101,7 @@ warning: use of deprecated method `anchor_lang::prelude::AccountInfo::<'a>::real
 warning: `token-example` (lib) generated 14 warnings (5 duplicates)
     Finished `release` profile [optimized] target(s) in 0.11s
     Finished `test` profile [unoptimized + debuginfo] target(s) in 0.10s
-     Running unittests src/lib.rs (/Users/ryanomeara/projects/learning/bonus-projects/token-example/target/debug/deps/token_example-c897c9f41f3003b1)
+     Running unittests src/lib.rs (~/projects/learning/bonus-projects/token-example/target/debug/deps/token_example-c897c9f41f3003b1)
 [92mFinished[0m [trident-tests/fuzz_1/instructions/mint.rs] created
 [92mFinished[0m [trident-tests/fuzz_1/instructions/transfer.rs] created
 [92mFinished[0m [trident-tests/fuzz_1/instructions/initialize.rs] created
