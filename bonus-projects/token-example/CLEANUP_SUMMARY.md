@@ -26,7 +26,7 @@
 
 ### 📁 Backup Location:
 ```
-/Users/ryanomeara/projects/learning/bonus-projects/token-example/testing-backup/
+~/projects/learning/bonus-projects/token-example/testing-backup/
 ```
 
 ## What You Can Do Now
